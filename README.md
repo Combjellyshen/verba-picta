@@ -166,17 +166,17 @@ python -m unittest discover -s tests -v
 
 ```text
 .
-├── README.md                                  # 项目概览与使用指南
-├── requirements.txt                           # Python 依赖清单
-├── assets/                                    # 项目静态资源与赞赏码
-│   ├── sponsor-alipay.jpg                     # 支付宝赞赏码
-│   └── sponsor-wechat.jpg                     # 微信赞赏码
+├── README.md                               
+├── requirements.txt                        
+├── assets/                                 
+│   ├── sponsor-alipay.jpg                 
+│   └── sponsor-wechat.jpg                 
 ├── docs/
 │   └── artist-resources.md                    # 14 位艺术家作品速查与馆藏索引
 ├── tests/
-│   └── test_scripts.py                        # 脚本行为与工程完整性测试套件
-└── canva-abstract-portrait/                   # 完整、可独立分发的 Skill 目录
-    ├── SKILL.md                               # 技能主入口与标准工作流定义
+│   └── test_scripts.py                     
+└── canva-abstract-portrait/               
+    ├── SKILL.md                             
     ├── agents/
     │   └── openai.yaml                        # 平台元数据与配置
     ├── references/
