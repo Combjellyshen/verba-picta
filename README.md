@@ -2,6 +2,8 @@
 
 欸？康定斯基为我作画？！
 
+[English](README_EN.md) | [中文](README.md)
+
 [![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](photopea-abstract-portrait/SKILL.md)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10+-brightgreen.svg)](requirements.txt)
@@ -168,7 +170,8 @@ python -m unittest discover -s tests -v
 ```text
 .
 ├── LICENSE                                    # CC BY-NC 4.0 开源许可协议
-├── README.md
+├── README.md                                  # 中文文档
+├── README_EN.md                               # 英文文档
 ├── requirements.txt
 ├── assets/
 │   ├── sponsor-alipay.jpg
@@ -265,3 +268,4 @@ Combjellyshen. (2026). 言之有画 (Verba Picta): 基于行为科学证据与 P
       </td>
     </tr>
   </table>
+</div>
