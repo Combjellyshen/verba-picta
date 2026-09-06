@@ -1,0 +1,5041 @@
+{
+  "schema_version": 1,
+  "version": "1.0.0",
+  "updated_at": "2026-09-06",
+  "source_name": "User portrait prompt; curated official museum and artist-foundation resources",
+  "scope_note": "All 14 artists in the original pool. Curated working sets and alternate research directions; not complete catalogues raisonnés.",
+  "period_note": "Direction labels are workflow groupings, not exhaustive or exclusive art-historical periods.",
+  "source_policy": "Artwork facts from official MoMA data or opened institution/foundation records. Visual prompts are editorial guidance requiring actual image viewing.",
+  "metadata_sources": [
+    "https://github.com/MuseumofModernArt/collection",
+    "https://www.centrepompidou.fr/",
+    "https://hilmaafklint.se/",
+    "https://www.zaowouki.org/",
+    "https://www.frankenthalerfoundation.org/",
+    "https://shop.tate.org.uk/",
+    "https://www.museothyssen.org/"
+  ],
+  "artists": [
+    {
+      "id": "wassily-kandinsky",
+      "name_zh": "瓦西里·康定斯基",
+      "name_en": "Wassily Kandinsky",
+      "aliases": [
+        "康定斯基",
+        "Vasily Kandinsky"
+      ],
+      "default_direction_id": "campbell-1914",
+      "guide_path": "references/visual-guides/wassily-kandinsky.md",
+      "directions": [
+        {
+          "id": "campbell-1914",
+          "name": "坎贝尔壁画组：抒情性非具象",
+          "years": "1914",
+          "work_ids": [
+            "moma_78335",
+            "moma_79450",
+            "moma_78320",
+            "moma_79452"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "以同一委托组保持方向一致，选择一幅作为骨架，不把四幅缩成拼盘。"
+        },
+        {
+          "id": "bauhaus-geometry",
+          "name": "包豪斯时期几何与有机形的张力",
+          "years": "1922–1933",
+          "work_ids": [
+            "moma_80496",
+            "moma_80497"
+          ],
+          "reference_set_ready": false,
+          "scope_note": "关注圆、斜线和轮廓关系；可补查《构成8》《几个圆》。"
+        },
+        {
+          "id": "early-landscape",
+          "name": "向抽象过渡的表现性风景",
+          "years": "1908–1911",
+          "work_ids": [
+            "moma_80104"
+          ],
+          "reference_set_ready": false,
+          "scope_note": "保留山丘／人物等形象残迹时使用，不能直接当成晚期几何。"
+        }
+      ],
+      "research_sources": [
+        "https://www.moma.org/collection/artists/2981",
+        "https://www.guggenheim.org/exhibition/vasily-kandinsky-around-the-circle"
+      ]
+    },
+    {
+      "id": "pablo-picasso",
+      "name_zh": "巴勃罗·毕加索",
+      "name_en": "Pablo Picasso",
+      "aliases": [
+        "毕加索"
+      ],
+      "default_direction_id": "biomorphic-1930-1932",
+      "guide_path": "references/visual-guides/pablo-picasso.md",
+      "directions": [
+        {
+          "id": "biomorphic-1930-1932",
+          "name": "1930–1932 年的身体变形与多视角人物",
+          "years": "1930–1932",
+          "work_ids": [
+            "moma_78311",
+            "moma_78721",
+            "moma_80262"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "以一种轮廓组织和色面节奏为主，区分不同作品中的尖锐与圆润处理。"
+        },
+        {
+          "id": "analytic-cubism",
+          "name": "分析立体主义的人物与物体分面",
+          "years": "1910–1913",
+          "work_ids": [
+            "moma_80430",
+            "moma_79051",
+            "moma_80162"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "压低色彩跨度，研究多视角交叠，不能只加三角切片。"
+        },
+        {
+          "id": "postwar-heads",
+          "name": "战后人物与头部简化",
+          "years": "1956–1962",
+          "work_ids": [
+            "moma_78569",
+            "moma_79362",
+            "moma_79928"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "按选定作品组织线与色面，避免混用所有时期的符号。"
+        }
+      ],
+      "research_sources": [
+        "https://www.moma.org/collection/artists/4609"
+      ]
+    },
+    {
+      "id": "piet-mondrian",
+      "name_zh": "皮特·蒙德里安",
+      "name_en": "Piet Mondrian",
+      "aliases": [
+        "蒙德里安"
+      ],
+      "default_direction_id": "neoplastic-1920s",
+      "guide_path": "references/visual-guides/piet-mondrian.md",
+      "directions": [
+        {
+          "id": "neoplastic-1920s",
+          "name": "1920 年代新造型主义的正交平衡",
+          "years": "1920–1929",
+          "work_ids": [
+            "moma_79300",
+            "moma_79002",
+            "moma_79059",
+            "moma_79816"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "方形与菱形构图先选其一；不把菱形外框误当内部斜线系统。"
+        },
+        {
+          "id": "cubist-transition",
+          "name": "立体主义过渡与色面分离",
+          "years": "1913–1914",
+          "work_ids": [
+            "moma_79253",
+            "moma_78441",
+            "moma_80146"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "保留细密分割或椭圆约束时选此方向。"
+        },
+        {
+          "id": "new-york-rhythm",
+          "name": "纽约时期的色线与城市节奏",
+          "years": "1937–1943",
+          "work_ids": [
+            "moma_80160",
+            "moma_79879",
+            "moma_78682"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "部分作品跨年重画；不能把全部年代一概归成黑线加三原色。"
+        }
+      ],
+      "research_sources": [
+        "https://www.moma.org/collection/artists/4057"
+      ]
+    },
+    {
+      "id": "kazimir-malevich",
+      "name_zh": "卡济米尔·马列维奇",
+      "name_en": "Kazimir Malevich",
+      "aliases": [
+        "马列维奇",
+        "马勒维奇"
+      ],
+      "default_direction_id": "suprematist-color",
+      "guide_path": "references/visual-guides/kazimir-malevich.md",
+      "directions": [
+        {
+          "id": "suprematist-color",
+          "name": "早期至上主义的悬浮色块",
+          "years": "1915–1917",
+          "work_ids": [
+            "moma_79269",
+            "moma_80383",
+            "moma_80387"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "以纯形态在白场中的尺度、旋转和间距组织空间。"
+        },
+        {
+          "id": "cubo-futurist",
+          "name": "立体未来主义与拼合物体",
+          "years": "1912–1914",
+          "work_ids": [
+            "moma_80381",
+            "moma_80504",
+            "moma_80380"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "适合保留身体／物体残迹的方案，不混称纯至上主义。"
+        },
+        {
+          "id": "white-on-white",
+          "name": "白上白系列",
+          "years": "1918",
+          "work_ids": [
+            "moma_80385"
+          ],
+          "reference_set_ready": false,
+          "scope_note": "极低对比与微妙边缘另成方向，先补充同系列参考。"
+        }
+      ],
+      "research_sources": [
+        "https://www.moma.org/collection/artists/3710"
+      ]
+    },
+    {
+      "id": "paul-klee",
+      "name_zh": "保罗·克利",
+      "name_en": "Paul Klee",
+      "aliases": [
+        "克利",
+        "保罗·克莱",
+        "克莱"
+      ],
+      "default_direction_id": "mask-1924-1928",
+      "guide_path": "references/visual-guides/paul-klee.md",
+      "directions": [
+        {
+          "id": "mask-1924-1928",
+          "name": "面具与线性色面的象征性造型",
+          "years": "1924–1928",
+          "work_ids": [
+            "moma_80094",
+            "moma_35209",
+            "moma_79456"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "人形与动物面部用于比较组织方式，不能把猫脸特征照搬为人的性格。"
+        },
+        {
+          "id": "color-architecture",
+          "name": "色彩建筑与节奏分区",
+          "years": "1929–1932",
+          "work_ids": [
+            "moma_34854",
+            "moma_78806",
+            "moma_78745"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "从分区、色层和小面积强调研究秩序。"
+        },
+        {
+          "id": "symbolic-narrative",
+          "name": "符号叙事与面具变化",
+          "years": "1926–1932",
+          "work_ids": [
+            "moma_79342",
+            "moma_80157",
+            "moma_80410"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "选择更具叙事性的关系时使用，避免所有符号同时出现。"
+        }
+      ],
+      "research_sources": [
+        "https://www.moma.org/collection/artists/3130"
+      ]
+    },
+    {
+      "id": "joan-miro",
+      "name_zh": "胡安·米罗",
+      "name_en": "Joan Miró",
+      "aliases": [
+        "米罗",
+        "Joan Miro"
+      ],
+      "default_direction_id": "dream-1923-1926",
+      "guide_path": "references/visual-guides/joan-miro.md",
+      "directions": [
+        {
+          "id": "dream-1923-1926",
+          "name": "1923–1926 年的梦境绘画与开放场",
+          "years": "1923–1926",
+          "work_ids": [
+            "moma_78756",
+            "moma_79321",
+            "moma_79341"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "同一方向内仍须选择主参考，区分密集叙事与疏朗背景。"
+        },
+        {
+          "id": "collage-derived-forms",
+          "name": "拼贴出发的生物形与线条",
+          "years": "1933–1935",
+          "work_ids": [
+            "moma_79202",
+            "moma_80315",
+            "moma_33621"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "研究大形变形及材料关系，不复制全部符号。"
+        },
+        {
+          "id": "late-signs",
+          "name": "后期的大形与书写性符号",
+          "years": "1950–1972",
+          "work_ids": [
+            "moma_80040",
+            "moma_78633",
+            "moma_78862"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "此为宽时间研究入口，实际使用时按其中一组作品进一步收窄。"
+        }
+      ],
+      "research_sources": [
+        "https://www.moma.org/collection/artists/4016"
+      ]
+    },
+    {
+      "id": "sonia-delaunay",
+      "name_zh": "索尼娅·德劳内",
+      "name_en": "Sonia Delaunay",
+      "aliases": [
+        "德劳内",
+        "索尼娅德劳内"
+      ],
+      "default_direction_id": "simultaneous-1913-1915",
+      "guide_path": "references/visual-guides/sonia-delaunay.md",
+      "directions": [
+        {
+          "id": "simultaneous-1913-1915",
+          "name": "早期同时性：色面对比与节奏",
+          "years": "1913–1915",
+          "work_ids": [
+            "sonia_contrasts",
+            "sonia_prismes",
+            "moma_79091"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "以一个主参考统摄色面对比；特别核对横竖方向与相邻色关系。"
+        },
+        {
+          "id": "dance-frieze",
+          "name": "舞蹈长卷与人物动势",
+          "years": "1913",
+          "work_ids": [
+            "sonia_bal_bullier"
+          ],
+          "reference_set_ready": false,
+          "scope_note": "舞厅长卷需为肖像画幅改编；馆藏页图像缺失时补可靠图源。"
+        },
+        {
+          "id": "rhythms-1930s",
+          "name": "圆弧与节奏的抽象组织",
+          "years": "1930 年代",
+          "work_ids": [
+            "sonia_rythme"
+          ],
+          "reference_set_ready": false,
+          "scope_note": "需补同方向参考，勿混淆 Robert 与 Sonia Delaunay 的作品。"
+        },
+        {
+          "id": "textile-dialogue",
+          "name": "绘画与服装／织物图案的互相影响",
+          "years": "1910–1930 年代",
+          "work_ids": [],
+          "reference_set_ready": false,
+          "scope_note": "仅作备选研究入口；必须重新选择绘画参考，不能以图案模板代替画作。"
+        }
+      ],
+      "research_sources": [
+        "https://www.moma.org/collection/artists/1480",
+        "https://www.centrepompidou.fr/fr/ressources/personne/cX44X8E"
+      ]
+    },
+    {
+      "id": "mark-rothko",
+      "name_zh": "马克·罗斯科",
+      "name_en": "Mark Rothko",
+      "aliases": [
+        "罗斯科"
+      ],
+      "default_direction_id": "mature-fields",
+      "guide_path": "references/visual-guides/mark-rothko.md",
+      "directions": [
+        {
+          "id": "mature-fields",
+          "name": "成熟期叠置色域",
+          "years": "1950–1958",
+          "work_ids": [
+            "moma_78594",
+            "moma_78485",
+            "moma_79596",
+            "moma_80566"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "选择一个主参考的色域数量与空间关系，不机械限定三块矩形。"
+        },
+        {
+          "id": "multiform-transition",
+          "name": "从象征图像到多形色域",
+          "years": "1944–1948",
+          "work_ids": [
+            "moma_79691",
+            "moma_80564",
+            "moma_80565"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "包含转变，实际制作须在符号与多形之间进一步选定语言。"
+        },
+        {
+          "id": "late-dark",
+          "name": "后期深色与低对比空间",
+          "years": "1961–1970",
+          "work_ids": [
+            "moma_80177",
+            "moma_79611"
+          ],
+          "reference_set_ready": false,
+          "scope_note": "黑灰及深色色域需另外收窄参考组。"
+        }
+      ],
+      "research_sources": [
+        "https://www.moma.org/collection/artists/5047"
+      ]
+    },
+    {
+      "id": "jackson-pollock",
+      "name_zh": "杰克逊·波洛克",
+      "name_en": "Jackson Pollock",
+      "aliases": [
+        "波洛克"
+      ],
+      "default_direction_id": "poured-1947-1950",
+      "guide_path": "references/visual-guides/jackson-pollock.md",
+      "directions": [
+        {
+          "id": "poured-1947-1950",
+          "name": "1947–1950 年浇洒与全幅网络",
+          "years": "1947–1950",
+          "work_ids": [
+            "moma_79070",
+            "moma_78699",
+            "moma_78386",
+            "moma_80310"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "以跨画面线网与不同层次密度为主，不画一团中心乱线。"
+        },
+        {
+          "id": "mythic-figures",
+          "name": "早期神话性人物与线性结构",
+          "years": "1942–1944",
+          "work_ids": [
+            "moma_79686",
+            "moma_78719",
+            "moma_79942"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "保留图像痕迹时选择，不能同成熟滴画混成一套动作。"
+        },
+        {
+          "id": "black-pour",
+          "name": "黑色浇注阶段",
+          "years": "1951",
+          "work_ids": [
+            "moma_79251"
+          ],
+          "reference_set_ready": false,
+          "scope_note": "需补同阶段作品，关注黑线与留白。"
+        },
+        {
+          "id": "late-color",
+          "name": "后期色彩和图像的再组织",
+          "years": "1953–1954",
+          "work_ids": [
+            "moma_79678",
+            "moma_79481"
+          ],
+          "reference_set_ready": false,
+          "scope_note": "需收窄参考，避免把晚期回归形象当成熟滴画。"
+        }
+      ],
+      "research_sources": [
+        "https://www.moma.org/collection/artists/4675"
+      ]
+    },
+    {
+      "id": "agnes-martin",
+      "name_zh": "阿格尼丝·马丁",
+      "name_en": "Agnes Martin",
+      "aliases": [
+        "马丁",
+        "阿格尼斯·马丁"
+      ],
+      "default_direction_id": "early-grid",
+      "guide_path": "references/visual-guides/agnes-martin.md",
+      "directions": [
+        {
+          "id": "early-grid",
+          "name": "1963–1964 年细网格与微差",
+          "years": "1963–1964",
+          "work_ids": [
+            "moma_79842",
+            "moma_78361",
+            "moma_79891"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "比较不同底色及刻划／细线处理，选择一幅统摄画面。"
+        },
+        {
+          "id": "pale-bands",
+          "name": "后期浅色条带与节律",
+          "years": "1975–1989",
+          "work_ids": [
+            "moma_79416",
+            "moma_79669",
+            "moma_79540"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "宽时期研究组，实际制作以主参考的条带尺度与色域为准。"
+        },
+        {
+          "id": "late-series",
+          "name": "晚期成组绘画",
+          "years": "1997",
+          "work_ids": [
+            "moma_79892"
+          ],
+          "reference_set_ready": false,
+          "scope_note": "一件由多画组成的组作仍只是一件记录，不能冒充三件独立作品。"
+        }
+      ],
+      "research_sources": [
+        "https://www.moma.org/collection/artists/3787"
+      ]
+    },
+    {
+      "id": "hilma-af-klint",
+      "name_zh": "希尔玛·阿芙·克林特",
+      "name_en": "Hilma af Klint",
+      "aliases": [
+        "希尔玛",
+        "阿芙·克林特",
+        "希尔玛·阿夫·克林特"
+      ],
+      "default_direction_id": "ten-largest",
+      "guide_path": "references/visual-guides/hilma-af-klint.md",
+      "directions": [
+        {
+          "id": "ten-largest",
+          "name": "《十大》组作的有机形与几何关系",
+          "years": "1907",
+          "work_ids": [
+            "hilma_hak102",
+            "hilma_hak108",
+            "hilma_old_age_9"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "保留组作统一语言，生活阶段的作品标题不是目标人物年龄或命运的证据。"
+        },
+        {
+          "id": "swan-altarpiece",
+          "name": "《天鹅》与祭坛画的几何研究",
+          "years": "1914–1915",
+          "work_ids": [
+            "hilma_hak149",
+            "hilma_hak165",
+            "hilma_hak187"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "两组作品有差异，优先补成其中一个系列，不直接混用全部形态。"
+        },
+        {
+          "id": "atom",
+          "name": "《原子》系列的图式探索",
+          "years": "1917",
+          "work_ids": [
+            "hilma_hak358"
+          ],
+          "reference_set_ready": false,
+          "scope_note": "仅作进一步研究入口，补同系列参考。"
+        }
+      ],
+      "research_sources": [
+        "https://hilmaafklint.se/about-hilma-af-klint/",
+        "https://hilmaafklint.se/selected-works/",
+        "https://www.guggenheim.org/wp-content/uploads/2018/10/guggenheim-education-hilma-af-klint-teacher-resource-unit-10-5.pdf"
+      ]
+    },
+    {
+      "id": "zao-wou-ki",
+      "name_zh": "赵无极",
+      "name_en": "Zao Wou-Ki",
+      "aliases": [
+        "赵无极",
+        "Zao Wou Ki"
+      ],
+      "default_direction_id": "gestural-1960s",
+      "guide_path": "references/visual-guides/zao-wou-ki.md",
+      "directions": [
+        {
+          "id": "gestural-1960s",
+          "name": "1960 年代的动势、密度与开放空间",
+          "years": "1961–1969",
+          "work_ids": [
+            "zao_1961",
+            "zao_varese",
+            "zao_1969"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "根据主参考确定横向聚集或纵向运动，不机械居中画黑色山峰。"
+        },
+        {
+          "id": "signs-1950s",
+          "name": "从符号走向非具象",
+          "years": "1954–1957",
+          "work_ids": [
+            "zao_vent",
+            "zao_chuyun",
+            "zao_aube"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "注意早期细密符号与后期大动势的不同。"
+        },
+        {
+          "id": "open-1980s",
+          "name": "1980 年代的色光与大空间",
+          "years": "1982–1985",
+          "work_ids": [
+            "zao_1982",
+            "zao_1984",
+            "zao_1985"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "比较稀疏空间与色层，不把晚期简单等同水墨。"
+        }
+      ],
+      "research_sources": [
+        "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+        "https://www.zaowouki.org/en/the-artist/biography/"
+      ]
+    },
+    {
+      "id": "helen-frankenthaler",
+      "name_zh": "海伦·弗兰肯塔勒",
+      "name_en": "Helen Frankenthaler",
+      "aliases": [
+        "弗兰肯塔勒",
+        "海伦·弗兰肯塔尔"
+      ],
+      "default_direction_id": "soak-stain-1950s",
+      "guide_path": "references/visual-guides/helen-frankenthaler.md",
+      "directions": [
+        {
+          "id": "soak-stain-1950s",
+          "name": "1950 年代的浸染色域与线性骨架",
+          "years": "1952–1957",
+          "work_ids": [
+            "helen_mountains",
+            "moma_79081",
+            "moma_78722"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "研究底布参与、色域渗入及稀疏线条，不混作厚涂。"
+        },
+        {
+          "id": "acrylic-fields",
+          "name": "1960 年代丙烯色场",
+          "years": "1963–1966",
+          "work_ids": [
+            "helen_bay",
+            "helen_interior",
+            "moma_80712"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "比较更明确色场与边缘，不照搬早期颜料表现。"
+        },
+        {
+          "id": "late-layering",
+          "name": "晚期色层与深色组织",
+          "years": "1988",
+          "work_ids": [
+            "moma_435703"
+          ],
+          "reference_set_ready": false,
+          "scope_note": "作为备选入口，补同阶段作品。"
+        }
+      ],
+      "research_sources": [
+        "https://www.moma.org/collection/artists/1974",
+        "https://www.frankenthalerfoundation.org/artworks/paintings"
+      ]
+    },
+    {
+      "id": "franz-kline",
+      "name_zh": "弗朗兹·克莱因",
+      "name_en": "Franz Kline",
+      "aliases": [
+        "克莱因",
+        "弗朗茨·克莱因"
+      ],
+      "default_direction_id": "black-white-1950s",
+      "guide_path": "references/visual-guides/franz-kline.md",
+      "directions": [
+        {
+          "id": "black-white-1950s",
+          "name": "1950 年代黑白结构与笔势",
+          "years": "1950–1955",
+          "work_ids": [
+            "moma_78319",
+            "moma_79234",
+            "moma_79639"
+          ],
+          "reference_set_ready": true,
+          "scope_note": "白色是被塑造的形体，不能只在白底上画几根黑棒。"
+        },
+        {
+          "id": "late-monumental",
+          "name": "后期大尺度结构",
+          "years": "1961",
+          "work_ids": [
+            "moma_80108"
+          ],
+          "reference_set_ready": false,
+          "scope_note": "以大型画的比例及黑白互锁为研究入口，补同阶段作品。"
+        }
+      ],
+      "research_sources": [
+        "https://www.moma.org/collection/artists/3148"
+      ]
+    }
+  ],
+  "artworks": [
+    {
+      "id": "sonia_bal_bullier",
+      "artist_id": "sonia-delaunay",
+      "title_original": "Le Bal Bullier",
+      "title_zh": null,
+      "date_display": "1913",
+      "institution": "Centre Pompidou, Musée national d’art moderne",
+      "accession_number": "AM 3307 P",
+      "medium": "Oil on mattress ticking",
+      "dimensions_display": "97 × 390 cm",
+      "collection_url": "https://www.centrepompidou.fr/fr/ressources/oeuvre/cL9X6on",
+      "metadata_source": "https://www.centrepompidou.fr/fr/ressources/oeuvre/cL9X6on",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_source_opened",
+      "direction_ids": [
+        "dance-frieze"
+      ],
+      "suggested_roles": [
+        "composition",
+        "color",
+        "form",
+        "surface"
+      ],
+      "image": {
+        "url": null,
+        "provenance": null,
+        "status": "needs_browser_image_source",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.centrepompidou.fr/fr/ressources/oeuvre/cL9X6on",
+        "rights_note": "Availability for viewing is separate from permission to reproduce; retain the source credit."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "sonia_prismes",
+      "artist_id": "sonia-delaunay",
+      "title_original": "Prismes électriques (couleurs simultanées)",
+      "title_zh": null,
+      "date_display": "1914",
+      "institution": "Centre Pompidou, Musée national d’art moderne",
+      "accession_number": null,
+      "medium": "Oil on canvas",
+      "dimensions_display": "250 × 250 cm",
+      "collection_url": "https://www.centrepompidou.fr/fr/ressources/oeuvre/zS28bfR",
+      "metadata_source": "https://www.centrepompidou.fr/fr/ressources/oeuvre/zS28bfR",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_source_opened",
+      "direction_ids": [
+        "simultaneous-1913-1915"
+      ],
+      "suggested_roles": [
+        "composition",
+        "color",
+        "form",
+        "surface"
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Sonia_Delaunay%2C_1914%2C_Prismes_%C3%A9lectriques%2C_oil_on_canvas%2C_250_x_250_cm%2C_Mus%C3%A9e_National_d%27Art_Moderne.jpg",
+        "provenance": "Supplemental Wikimedia file explicitly identifies the 1914 250x250 cm work; identity retained from Centre Pompidou, image compared separately",
+        "status": "last_download_unavailable_use_browser_or_alternate",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.centrepompidou.fr/fr/ressources/oeuvre/zS28bfR",
+        "rights_note": "Do not infer unrestricted reuse from archive tags; museum credit remains Pracusa S.A. This is a research preview, with rights and source checked separately.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:23.509553+00:00",
+          "status": "unavailable",
+          "reason": "HTTP Error 429: Too Many Requests (015d12c)"
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ],
+      "alternate_sources": [
+        "https://commons.wikimedia.org/wiki/File:Sonia_Delaunay,_1914,_Prismes_%C3%A9lectriques,_oil_on_canvas,_250_x_250_cm,_Mus%C3%A9e_National_d'Art_Moderne.jpg"
+      ]
+    },
+    {
+      "id": "sonia_rythme",
+      "artist_id": "sonia-delaunay",
+      "title_original": "Rythme",
+      "title_zh": null,
+      "date_display": "1938",
+      "institution": "Centre Pompidou, Musée national d’art moderne",
+      "accession_number": null,
+      "medium": null,
+      "dimensions_display": null,
+      "collection_url": "https://www.centrepompidou.fr/en/ressources/oeuvre/cBKoqo8",
+      "metadata_source": "https://www.centrepompidou.fr/en/ressources/oeuvre/cBKoqo8",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_source_opened",
+      "direction_ids": [
+        "rhythms-1930s"
+      ],
+      "suggested_roles": [
+        "composition",
+        "color",
+        "form",
+        "surface"
+      ],
+      "image": {
+        "url": null,
+        "provenance": null,
+        "status": "needs_browser_image_source",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.centrepompidou.fr/en/ressources/oeuvre/cBKoqo8",
+        "rights_note": "Availability for viewing is separate from permission to reproduce; retain the source credit."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "sonia_contrasts",
+      "artist_id": "sonia-delaunay",
+      "title_original": "Contrastes simultáneos / Simultaneous Contrasts",
+      "title_zh": null,
+      "date_display": "1913",
+      "institution": "Museo Nacional Thyssen-Bornemisza, Madrid",
+      "accession_number": "518 (1976.81)",
+      "medium": "Oil on canvas",
+      "dimensions_display": "46 × 55 cm",
+      "collection_url": "https://www.museothyssen.org/coleccion/artistas/delaunay-sonia/contrastes-simultaneos",
+      "metadata_source": "https://www.museothyssen.org/coleccion/artistas/delaunay-sonia/contrastes-simultaneos",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_source_opened",
+      "direction_ids": [
+        "simultaneous-1913-1915"
+      ],
+      "suggested_roles": [
+        "composition",
+        "color",
+        "form",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.museothyssen.org/sites/default/files/styles/full_resolution/public/imagen/obras/1976.81_contrastes-simultaneos.jpg",
+        "provenance": "Official museum detail page: matching artwork image alt text and accession number 1976.81",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.museothyssen.org/coleccion/artistas/delaunay-sonia/contrastes-simultaneos",
+        "rights_note": "Museum conditions distinguish private/research viewing from reproduction; retain full image and credit when reproducing. Consult linked conditions before collage use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:24.636608+00:00",
+          "status": "downloaded",
+          "pixels": [
+            3000,
+            2527
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "hilma_hak102",
+      "artist_id": "hilma-af-klint",
+      "title_original": "The Ten Largest, group IV, Childhood, 1907",
+      "title_zh": null,
+      "date_display": "1907",
+      "institution": "Hilma af Klint Foundation",
+      "accession_number": "HaK 102",
+      "medium": null,
+      "dimensions_display": null,
+      "collection_url": "https://hilmaafklint.se/selected-works/",
+      "metadata_source": "https://hilmaafklint.se/selected-works/",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_source_opened",
+      "direction_ids": [
+        "ten-largest"
+      ],
+      "suggested_roles": [
+        "composition",
+        "color",
+        "form",
+        "surface"
+      ],
+      "image": {
+        "url": "https://hilmaafklint.se/wp-content/uploads/Hak102.jpg",
+        "provenance": "Foundation selected-works gallery: matching lightbox title HaK 102 and description",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://hilmaafklint.se/selected-works/",
+        "rights_note": "Availability for viewing is separate from permission to reproduce; retain the source credit.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:27.346600+00:00",
+          "status": "cached",
+          "pixels": [
+            677,
+            900
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "hilma_hak108",
+      "artist_id": "hilma-af-klint",
+      "title_original": "The Ten Largest, group IV, Adulthood, 1907",
+      "title_zh": null,
+      "date_display": "1907",
+      "institution": "Hilma af Klint Foundation",
+      "accession_number": "HaK 108",
+      "medium": null,
+      "dimensions_display": null,
+      "collection_url": "https://hilmaafklint.se/selected-works/",
+      "metadata_source": "https://hilmaafklint.se/selected-works/",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_source_opened",
+      "direction_ids": [
+        "ten-largest"
+      ],
+      "suggested_roles": [
+        "composition",
+        "color",
+        "form",
+        "surface"
+      ],
+      "image": {
+        "url": "https://hilmaafklint.se/wp-content/uploads/Hak108.jpg",
+        "provenance": "Foundation selected-works gallery: matching lightbox title HaK 108 and description",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://hilmaafklint.se/selected-works/",
+        "rights_note": "Availability for viewing is separate from permission to reproduce; retain the source credit.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:27.354427+00:00",
+          "status": "cached",
+          "pixels": [
+            679,
+            900
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "hilma_hak149",
+      "artist_id": "hilma-af-klint",
+      "title_original": "The Swan, the SUW series, group IX, 1914-1915",
+      "title_zh": null,
+      "date_display": "1914–1915",
+      "institution": "Hilma af Klint Foundation",
+      "accession_number": "HaK 149",
+      "medium": null,
+      "dimensions_display": null,
+      "collection_url": "https://hilmaafklint.se/selected-works/",
+      "metadata_source": "https://hilmaafklint.se/selected-works/",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_source_opened",
+      "direction_ids": [
+        "swan-altarpiece"
+      ],
+      "suggested_roles": [
+        "composition",
+        "color",
+        "form",
+        "surface"
+      ],
+      "image": {
+        "url": "https://hilmaafklint.se/wp-content/uploads/Hak149-2.jpg",
+        "provenance": "Foundation selected-works gallery: matching lightbox title HaK 149 and description",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://hilmaafklint.se/selected-works/",
+        "rights_note": "Availability for viewing is separate from permission to reproduce; retain the source credit."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "hilma_hak165",
+      "artist_id": "hilma-af-klint",
+      "title_original": "The Swan, the SUW series, group IX, 1914-1915",
+      "title_zh": null,
+      "date_display": "1914–1915",
+      "institution": "Hilma af Klint Foundation",
+      "accession_number": "HaK 165",
+      "medium": null,
+      "dimensions_display": null,
+      "collection_url": "https://hilmaafklint.se/selected-works/",
+      "metadata_source": "https://hilmaafklint.se/selected-works/",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_source_opened",
+      "direction_ids": [
+        "swan-altarpiece"
+      ],
+      "suggested_roles": [
+        "composition",
+        "color",
+        "form",
+        "surface"
+      ],
+      "image": {
+        "url": "https://hilmaafklint.se/wp-content/uploads/Hak165-2.jpg",
+        "provenance": "Foundation selected-works gallery: matching lightbox title HaK 165 and description",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://hilmaafklint.se/selected-works/",
+        "rights_note": "Availability for viewing is separate from permission to reproduce; retain the source credit."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "hilma_hak187",
+      "artist_id": "hilma-af-klint",
+      "title_original": "Altarpieces, Group X, 1915",
+      "title_zh": null,
+      "date_display": "1915",
+      "institution": "Hilma af Klint Foundation",
+      "accession_number": "HaK 187",
+      "medium": null,
+      "dimensions_display": null,
+      "collection_url": "https://hilmaafklint.se/selected-works/",
+      "metadata_source": "https://hilmaafklint.se/selected-works/",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_source_opened",
+      "direction_ids": [
+        "swan-altarpiece"
+      ],
+      "suggested_roles": [
+        "composition",
+        "color",
+        "form",
+        "surface"
+      ],
+      "image": {
+        "url": "https://hilmaafklint.se/wp-content/uploads/Hak187.jpg",
+        "provenance": "Foundation selected-works gallery: matching lightbox title HaK 187 and description",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://hilmaafklint.se/selected-works/",
+        "rights_note": "Availability for viewing is separate from permission to reproduce; retain the source credit."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "hilma_hak358",
+      "artist_id": "hilma-af-klint",
+      "title_original": "The Atom Series, No.6, 1917",
+      "title_zh": null,
+      "date_display": "1917",
+      "institution": "Hilma af Klint Foundation",
+      "accession_number": "HaK 358",
+      "medium": null,
+      "dimensions_display": null,
+      "collection_url": "https://hilmaafklint.se/selected-works/",
+      "metadata_source": "https://hilmaafklint.se/selected-works/",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_source_opened",
+      "direction_ids": [
+        "atom"
+      ],
+      "suggested_roles": [
+        "composition",
+        "color",
+        "form",
+        "surface"
+      ],
+      "image": {
+        "url": "https://hilmaafklint.se/wp-content/uploads/HaK358-2.jpg",
+        "provenance": "Foundation selected-works gallery: matching lightbox title HaK 358 and description",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://hilmaafklint.se/selected-works/",
+        "rights_note": "Availability for viewing is separate from permission to reproduce; retain the source credit."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "hilma_old_age_9",
+      "artist_id": "hilma-af-klint",
+      "title_original": "The Ten Largest, Group IV, No. 9, Old Age",
+      "title_zh": null,
+      "date_display": "1907",
+      "institution": "Hilma af Klint Foundation; reproduction record at Tate",
+      "accession_number": null,
+      "medium": "Tempera on paper, mounted on canvas",
+      "dimensions_display": "320 × 238 cm",
+      "collection_url": "https://shop.tate.org.uk/hilma-af-klint-the-ten-largest-group-iv-no.-9-old-age/afklin2311.html",
+      "metadata_source": "https://shop.tate.org.uk/hilma-af-klint-the-ten-largest-group-iv-no.-9-old-age/afklin2311.html",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_source_opened",
+      "direction_ids": [
+        "ten-largest"
+      ],
+      "suggested_roles": [
+        "composition",
+        "color",
+        "form",
+        "surface"
+      ],
+      "image": {
+        "url": "https://shop.tate.org.uk/dw/image/v2/BBPB_PRD/on/demandware.static/-/Sites-TateMasterShop/default/dw906322a1/Hilma%20af%20Klint%20%26%20Piet%20Mondrian%20custom%20prints/hilma-af-klint-the-ten-largest-group-iv-no-9-old-age-custom-print-afklin2311.jpg?sw=556",
+        "provenance": "Tate official product artwork image; reproduction may include print border; small preview, seek museum PDF for closer study",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://shop.tate.org.uk/hilma-af-klint-the-ten-largest-group-iv-no.-9-old-age/afklin2311.html",
+        "rights_note": "Availability for viewing is separate from permission to reproduce; retain the source credit.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:27.360291+00:00",
+          "status": "downloaded",
+          "pixels": [
+            556,
+            746
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ],
+      "alternate_sources": [
+        "https://www.guggenheim.org/wp-content/uploads/2018/10/guggenheim-education-hilma-af-klint-teacher-resource-unit-10-5.pdf"
+      ]
+    },
+    {
+      "id": "zao_1961",
+      "artist_id": "zao-wou-ki",
+      "title_original": "15.12.61",
+      "title_zh": null,
+      "date_display": "1961",
+      "institution": "CCI; deposit at Évreux museum",
+      "accession_number": null,
+      "medium": "Oil on canvas",
+      "dimensions_display": "200 × 180 cm",
+      "collection_url": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+      "metadata_source": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_source_opened",
+      "direction_ids": [
+        "gestural-1960s"
+      ],
+      "suggested_roles": [
+        "composition",
+        "color",
+        "form",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.zaowouki.org/wp-content/uploads/2019/06/HUILE-10.jpg",
+        "provenance": "Foundation oil-paintings archive: title/caption paired with image in document order",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+        "rights_note": "Availability for viewing is separate from permission to reproduce; retain the source credit.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:29.349095+00:00",
+          "status": "cached",
+          "pixels": [
+            1920,
+            2135
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "zao_varese",
+      "artist_id": "zao-wou-ki",
+      "title_original": "Hommage à Edgar Varèse – 25.10.64",
+      "title_zh": null,
+      "date_display": "1964",
+      "institution": "Musée cantonal des Beaux-Arts, Lausanne",
+      "accession_number": null,
+      "medium": "Oil on canvas",
+      "dimensions_display": "255 × 345 cm",
+      "collection_url": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+      "metadata_source": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_source_opened",
+      "direction_ids": [
+        "gestural-1960s"
+      ],
+      "suggested_roles": [
+        "composition",
+        "color",
+        "form",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.zaowouki.org/wp-content/uploads/2019/06/HUILE-11.jpg",
+        "provenance": "Foundation oil-paintings archive: title/caption paired with image in document order",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+        "rights_note": "Availability for viewing is separate from permission to reproduce; retain the source credit.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:29.394537+00:00",
+          "status": "cached",
+          "pixels": [
+            1920,
+            1410
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "zao_1969",
+      "artist_id": "zao-wou-ki",
+      "title_original": "12.08.69",
+      "title_zh": null,
+      "date_display": "1969",
+      "institution": "National Taiwan Museum of Fine Arts, Taichung",
+      "accession_number": null,
+      "medium": "Oil on canvas",
+      "dimensions_display": "200 × 300 cm",
+      "collection_url": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+      "metadata_source": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_source_opened",
+      "direction_ids": [
+        "gestural-1960s"
+      ],
+      "suggested_roles": [
+        "composition",
+        "color",
+        "form",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.zaowouki.org/wp-content/uploads/2019/06/HUILE-12.jpg",
+        "provenance": "Foundation oil-paintings archive: title/caption paired with image in document order",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+        "rights_note": "Availability for viewing is separate from permission to reproduce; retain the source credit.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:29.428979+00:00",
+          "status": "cached",
+          "pixels": [
+            1920,
+            1283
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "zao_vent",
+      "artist_id": "zao-wou-ki",
+      "title_original": "Vent",
+      "title_zh": null,
+      "date_display": "1954",
+      "institution": "Centre Pompidou, Musée national d’art moderne",
+      "accession_number": null,
+      "medium": "Oil on canvas",
+      "dimensions_display": "195 × 97 cm",
+      "collection_url": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+      "metadata_source": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_source_opened",
+      "direction_ids": [
+        "signs-1950s"
+      ],
+      "suggested_roles": [
+        "composition",
+        "color",
+        "form",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.zaowouki.org/wp-content/uploads/2019/06/HUILE-07.jpg",
+        "provenance": "Foundation oil-paintings archive: title/caption paired with image in document order",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+        "rights_note": "Availability for viewing is separate from permission to reproduce; retain the source credit."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "zao_chuyun",
+      "artist_id": "zao-wou-ki",
+      "title_original": "Hommage à Chu-Yun – 05.05.55",
+      "title_zh": null,
+      "date_display": "1955",
+      "institution": "Zao Wou-Ki Foundation artwork archive",
+      "accession_number": null,
+      "medium": "Oil on canvas",
+      "dimensions_display": "195 × 130 cm",
+      "collection_url": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+      "metadata_source": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_source_opened",
+      "direction_ids": [
+        "signs-1950s"
+      ],
+      "suggested_roles": [
+        "composition",
+        "color",
+        "form",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.zaowouki.org/wp-content/uploads/2019/06/HUILE-08.jpg",
+        "provenance": "Foundation oil-paintings archive: title/caption paired with image in document order",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+        "rights_note": "Availability for viewing is separate from permission to reproduce; retain the source credit."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "zao_aube",
+      "artist_id": "zao-wou-ki",
+      "title_original": "Aube (aucun soir ni aucun matin)",
+      "title_zh": null,
+      "date_display": "1957",
+      "institution": "The National Museum of Modern Art, Kyoto",
+      "accession_number": null,
+      "medium": "Oil on canvas",
+      "dimensions_display": "200 × 300 cm",
+      "collection_url": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+      "metadata_source": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_source_opened",
+      "direction_ids": [
+        "signs-1950s"
+      ],
+      "suggested_roles": [
+        "composition",
+        "color",
+        "form",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.zaowouki.org/wp-content/uploads/2019/06/HUILE-09.jpg",
+        "provenance": "Foundation oil-paintings archive: title/caption paired with image in document order",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+        "rights_note": "Availability for viewing is separate from permission to reproduce; retain the source credit."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "zao_1982",
+      "artist_id": "zao-wou-ki",
+      "title_original": "04.01.82",
+      "title_zh": null,
+      "date_display": "1982",
+      "institution": "TOTAL France (as credited by the Foundation)",
+      "accession_number": null,
+      "medium": "Oil on canvas",
+      "dimensions_display": "260 × 200 cm",
+      "collection_url": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+      "metadata_source": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_source_opened",
+      "direction_ids": [
+        "open-1980s"
+      ],
+      "suggested_roles": [
+        "composition",
+        "color",
+        "form",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.zaowouki.org/wp-content/uploads/2019/07/HUILE-20-1.jpg",
+        "provenance": "Foundation oil-paintings archive: title/caption paired with image in document order",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+        "rights_note": "Availability for viewing is separate from permission to reproduce; retain the source credit."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "zao_1984",
+      "artist_id": "zao-wou-ki",
+      "title_original": "20.03.84",
+      "title_zh": null,
+      "date_display": "1984",
+      "institution": "Fonds national d’art contemporain; deposit at Assemblée nationale",
+      "accession_number": null,
+      "medium": "Oil on canvas",
+      "dimensions_display": "260 × 200 cm",
+      "collection_url": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+      "metadata_source": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_source_opened",
+      "direction_ids": [
+        "open-1980s"
+      ],
+      "suggested_roles": [
+        "composition",
+        "color",
+        "form",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.zaowouki.org/wp-content/uploads/2019/07/HUILE-21-1.jpg",
+        "provenance": "Foundation oil-paintings archive: title/caption paired with image in document order",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+        "rights_note": "Availability for viewing is separate from permission to reproduce; retain the source credit."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "zao_1985",
+      "artist_id": "zao-wou-ki",
+      "title_original": "20.12.85",
+      "title_zh": null,
+      "date_display": "1985",
+      "institution": "Zao Wou-Ki Foundation artwork archive",
+      "accession_number": null,
+      "medium": "Oil on canvas",
+      "dimensions_display": "195 × 130 cm",
+      "collection_url": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+      "metadata_source": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_source_opened",
+      "direction_ids": [
+        "open-1980s"
+      ],
+      "suggested_roles": [
+        "composition",
+        "color",
+        "form",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.zaowouki.org/wp-content/uploads/2019/07/HUILE-22-1.jpg",
+        "provenance": "Foundation oil-paintings archive: title/caption paired with image in document order",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/",
+        "rights_note": "Availability for viewing is separate from permission to reproduce; retain the source credit."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "helen_mountains",
+      "artist_id": "helen-frankenthaler",
+      "title_original": "Mountains and Sea",
+      "title_zh": null,
+      "date_display": "1952",
+      "institution": "Helen Frankenthaler Foundation; extended loan to National Gallery of Art",
+      "accession_number": null,
+      "medium": "Oil and charcoal on unsized, unprimed canvas",
+      "dimensions_display": "219.4 × 297.8 cm",
+      "collection_url": "https://www.frankenthalerfoundation.org/artworks/mountains-and-sea/details/all",
+      "metadata_source": "https://www.frankenthalerfoundation.org/artworks/mountains-and-sea/details/all",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_source_opened",
+      "direction_ids": [
+        "soak-stain-1950s"
+      ],
+      "suggested_roles": [
+        "composition",
+        "color",
+        "form",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.frankenthalerfoundation.org/images/1952_Frankenthaler_Mountains_and_Sea_copy0.jpg",
+        "provenance": "Foundation artwork detail page: artwork image under /images/",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.frankenthalerfoundation.org/artworks/mountains-and-sea/details/all",
+        "rights_note": "Availability for viewing is separate from permission to reproduce; retain the source credit.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:29.456038+00:00",
+          "status": "cached",
+          "pixels": [
+            679,
+            498
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "helen_bay",
+      "artist_id": "helen-frankenthaler",
+      "title_original": "The Bay",
+      "title_zh": null,
+      "date_display": "1963",
+      "institution": "Detroit Institute of Arts",
+      "accession_number": null,
+      "medium": "Acrylic on canvas",
+      "dimensions_display": "205 × 208 cm",
+      "collection_url": "https://www.frankenthalerfoundation.org/artworks/the-bay/details/all",
+      "metadata_source": "https://www.frankenthalerfoundation.org/artworks/the-bay/details/all",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_source_opened",
+      "direction_ids": [
+        "acrylic-fields"
+      ],
+      "suggested_roles": [
+        "composition",
+        "color",
+        "form",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.frankenthalerfoundation.org/images/1963_Frankenthaler_The_Bay0.jpg",
+        "provenance": "Foundation artwork detail page: artwork image under /images/",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.frankenthalerfoundation.org/artworks/the-bay/details/all",
+        "rights_note": "Availability for viewing is separate from permission to reproduce; retain the source credit."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "helen_interior",
+      "artist_id": "helen-frankenthaler",
+      "title_original": "Interior Landscape",
+      "title_zh": null,
+      "date_display": "1964",
+      "institution": "San Francisco Museum of Modern Art",
+      "accession_number": null,
+      "medium": "Acrylic on canvas",
+      "dimensions_display": "266 × 236 cm",
+      "collection_url": "https://www.frankenthalerfoundation.org/artworks/interior-landscape/details/all",
+      "metadata_source": "https://www.frankenthalerfoundation.org/artworks/interior-landscape/details/all",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_source_opened",
+      "direction_ids": [
+        "acrylic-fields"
+      ],
+      "suggested_roles": [
+        "composition",
+        "color",
+        "form",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.frankenthalerfoundation.org/images/1964_Frankenthaler_Interior_Landscape0.jpg",
+        "provenance": "Foundation artwork detail page: artwork image under /images/",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.frankenthalerfoundation.org/artworks/interior-landscape/details/all",
+        "rights_note": "Availability for viewing is separate from permission to reproduce; retain the source credit."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_78335",
+      "artist_id": "wassily-kandinsky",
+      "title_original": "Panel for Edwin R. Campbell No. 1",
+      "title_zh": null,
+      "date_display": "1914",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "3.1954",
+      "medium": "Oil on canvas",
+      "dimensions_display": "64 x 31 1/2\" (162.5 x 80 cm)",
+      "collection_url": "https://www.moma.org/collection/works/78335",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "campbell-1914"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjI0MTQxNCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=c9e89053976932d6",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/78335",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:29.462438+00:00",
+          "status": "cached",
+          "pixels": [
+            509,
+            1024
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_79450",
+      "artist_id": "wassily-kandinsky",
+      "title_original": "Panel for Edwin R. Campbell No. 2",
+      "title_zh": null,
+      "date_display": "1914",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "298.1983",
+      "medium": "Oil on canvas",
+      "dimensions_display": "64 1/8 x 48 3/8\" (162.6 x 122.7 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79450",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "campbell-1914"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjI0MTYxMSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=d372910668b6c6e1",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79450",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:29.473315+00:00",
+          "status": "cached",
+          "pixels": [
+            772,
+            1024
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_78320",
+      "artist_id": "wassily-kandinsky",
+      "title_original": "Panel for Edwin R. Campbell No. 3",
+      "title_zh": null,
+      "date_display": "1914",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "2.1954",
+      "medium": "Oil on canvas",
+      "dimensions_display": "64 x 36 1/4\" (162.5 x 92.1 cm)",
+      "collection_url": "https://www.moma.org/collection/works/78320",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "campbell-1914"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjI0MTQxMCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=3e417699ac0181a4",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/78320",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:29.487586+00:00",
+          "status": "cached",
+          "pixels": [
+            585,
+            1024
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "moma_79452",
+      "artist_id": "wassily-kandinsky",
+      "title_original": "Panel for Edwin R. Campbell No. 4",
+      "title_zh": null,
+      "date_display": "1914",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "299.1983",
+      "medium": "Oil on canvas",
+      "dimensions_display": "64 1/4 x 48 1/4\" (163 x 122.5 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79452",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "campbell-1914"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjI0MTQ0MyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=fff596a5da6fb6fb",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79452",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:29.499653+00:00",
+          "status": "cached",
+          "pixels": [
+            776,
+            1024
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较同方向内部的结构变化"
+      ]
+    },
+    {
+      "id": "moma_80496",
+      "artist_id": "wassily-kandinsky",
+      "title_original": "Soft Pressure",
+      "title_zh": null,
+      "date_display": "1931",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "1032.1983",
+      "medium": "Oil on plywood",
+      "dimensions_display": "39 1/4 x 39\" (99.5 x 99 cm)",
+      "collection_url": "https://www.moma.org/collection/works/80496",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "bauhaus-geometry"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE1MDk0MyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=0d48f0eefd10126a",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/80496",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_80497",
+      "artist_id": "wassily-kandinsky",
+      "title_original": "White - Soft and Hard",
+      "title_zh": null,
+      "date_display": "March 1932",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "1033.1983",
+      "medium": "Oil and gouache on canvas",
+      "dimensions_display": "31 1/2 x 39 1/2\" (80 x 99.8 cm)",
+      "collection_url": "https://www.moma.org/collection/works/80497",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "bauhaus-geometry"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE1MDkyMSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=db7b3d5f4f8ed472",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/80497",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_80104",
+      "artist_id": "wassily-kandinsky",
+      "title_original": "Picture with an Archer",
+      "title_zh": null,
+      "date_display": "1909",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "619.1959",
+      "medium": "Oil on canvas",
+      "dimensions_display": "68 7/8 x 57 3/8\" (175 x 144.6 cm)",
+      "collection_url": "https://www.moma.org/collection/works/80104",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "early-landscape"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjIwNDMyNyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=39a29811cc5fac18",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/80104",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_78311",
+      "artist_id": "pablo-picasso",
+      "title_original": "Girl before a Mirror",
+      "title_zh": null,
+      "date_display": "Paris, March 14, 1932",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "2.1938",
+      "medium": "Oil on canvas",
+      "dimensions_display": "64 x 51 1/4\" (162.3 x 130.2 cm)",
+      "collection_url": "https://www.moma.org/collection/works/78311",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "biomorphic-1930-1932"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjIwMzk0MCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=ce18fbf31c41a4f0",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/78311",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:29.515604+00:00",
+          "status": "cached",
+          "pixels": [
+            824,
+            1024
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_78721",
+      "artist_id": "pablo-picasso",
+      "title_original": "Seated Bather",
+      "title_zh": null,
+      "date_display": "Paris, early 1930",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "82.1950",
+      "medium": "Oil on canvas",
+      "dimensions_display": "64 1/4 x 51\" (163.2 x 129.5 cm)",
+      "collection_url": "https://www.moma.org/collection/works/78721",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "biomorphic-1930-1932"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE1MTUxMSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=cb6b456dda8abd63",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/78721",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:29.532332+00:00",
+          "status": "cached",
+          "pixels": [
+            817,
+            1024
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_80262",
+      "artist_id": "pablo-picasso",
+      "title_original": "Bather with Beach Ball",
+      "title_zh": null,
+      "date_display": "Boisgeloup, August 30, 1932",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "689.1980",
+      "medium": "Oil on canvas",
+      "dimensions_display": "57 7/8 x 45 1/8\" (146.2 x 114.6 cm)",
+      "collection_url": "https://www.moma.org/collection/works/80262",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "biomorphic-1930-1932"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE1MTQ1NyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=ab24947e5d1c6639",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/80262",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:29.545706+00:00",
+          "status": "cached",
+          "pixels": [
+            797,
+            1024
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "moma_80430",
+      "artist_id": "pablo-picasso",
+      "title_original": "Girl with a Mandolin (Fanny Tellier)",
+      "title_zh": null,
+      "date_display": "Paris, late spring 1910",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "966.1979",
+      "medium": "Oil on canvas",
+      "dimensions_display": "39 1/2 x 29\" (100.3 x 73.6 cm)",
+      "collection_url": "https://www.moma.org/collection/works/80430",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "analytic-cubism"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE1MTUzMyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=c51732b468107af8",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/80430",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_79051",
+      "artist_id": "pablo-picasso",
+      "title_original": "\"Ma Jolie\"",
+      "title_zh": null,
+      "date_display": "Paris, winter 1911-12",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "176.1945",
+      "medium": "Oil on canvas",
+      "dimensions_display": "39 3/8 x 25 3/4\" (100 x 64.5 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79051",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "analytic-cubism"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjI5ODcxMSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=da042d35dc4f5cf9",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79051",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_80162",
+      "artist_id": "pablo-picasso",
+      "title_original": "Glass, Guitar, and Bottle",
+      "title_zh": null,
+      "date_display": "Paris, early 1913",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "641.1967",
+      "medium": "Oil, cut-and-pasted newspaper, charcoal, and pencil on canvas",
+      "dimensions_display": "25 3/4 x 21 1/8\" (65.4 x 53.6 cm)",
+      "collection_url": "https://www.moma.org/collection/works/80162",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "analytic-cubism"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjIwMDUzOCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=6c3aec94f8cd0dd0",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/80162",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "moma_78569",
+      "artist_id": "pablo-picasso",
+      "title_original": "Woman by a Window",
+      "title_zh": null,
+      "date_display": "Cannes, June 1956",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "30.1957",
+      "medium": "Oil on canvas",
+      "dimensions_display": "63 3/4 x 51 1/4\" (162 x 130 cm)",
+      "collection_url": "https://www.moma.org/collection/works/78569",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "postwar-heads"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE1MTI1OSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=28836bd950351660",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/78569",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_79362",
+      "artist_id": "pablo-picasso",
+      "title_original": "Head of a Faun",
+      "title_zh": null,
+      "date_display": "January 24 - February 6, 1956",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "275.1956",
+      "medium": "Enamel on tile",
+      "dimensions_display": "8 x 8\" (20.3 x 20.3 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79362",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "postwar-heads"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjIwODY2MSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=d93d9c3adf0c169f",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79362",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_79928",
+      "artist_id": "pablo-picasso",
+      "title_original": "Woman in an Armchair",
+      "title_zh": null,
+      "date_display": "Mougins, 1961-62",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "529.1964",
+      "medium": "Oil on canvas",
+      "dimensions_display": "63 7/8 x 51 1/8\" (162.3 x 129.8 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79928",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "postwar-heads"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE3MTE1MyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=bc108d0023921024",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79928",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "moma_79300",
+      "artist_id": "piet-mondrian",
+      "title_original": "Composition C",
+      "title_zh": null,
+      "date_display": "1920",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "257.1948",
+      "medium": "Oil on canvas",
+      "dimensions_display": "23 3/4 x 24\" (60.3 x 61 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79300",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "neoplastic-1920s"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjM5NTgzNSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=3c95cf4516240e9e",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79300",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:29.558325+00:00",
+          "status": "cached",
+          "pixels": [
+            1018,
+            1024
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_79002",
+      "artist_id": "piet-mondrian",
+      "title_original": "Composition with Red, Blue, Black, Yellow, and Gray",
+      "title_zh": null,
+      "date_display": "1921",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "154.1957",
+      "medium": "Oil on canvas",
+      "dimensions_display": "29 7/8 x 20 5/8\" (76 x 52.4 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79002",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "neoplastic-1920s"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjI2NTczOCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=4208b485218b43bc",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79002",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:29.572305+00:00",
+          "status": "cached",
+          "pixels": [
+            707,
+            1024
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_79059",
+      "artist_id": "piet-mondrian",
+      "title_original": "Tableau I: Lozenge with Four Lines and Gray",
+      "title_zh": null,
+      "date_display": "1926",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "179.1953",
+      "medium": "Oil on canvas",
+      "dimensions_display": "46 1/8 × 45 1/2\" (117.2 × 115.6 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79059",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "neoplastic-1920s"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjI2NTczOSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=ed964188249680e4",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79059",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:29.583267+00:00",
+          "status": "cached",
+          "pixels": [
+            1007,
+            1024
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "moma_79816",
+      "artist_id": "piet-mondrian",
+      "title_original": "Composition No. II, with Red and Blue",
+      "title_zh": null,
+      "date_display": "1929 (original date partly obliterated; mistakenly repainted 1925 by Mondrian)",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "486.1941",
+      "medium": "Oil on canvas",
+      "dimensions_display": "15 7/8 x 12 5/8\" (40.3 x 32.1 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79816",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "neoplastic-1920s"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjI5MjUwNiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=eb07e3c0ac0a72d8",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79816",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:29.595993+00:00",
+          "status": "cached",
+          "pixels": [
+            823,
+            1024
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较同方向内部的结构变化"
+      ]
+    },
+    {
+      "id": "moma_79253",
+      "artist_id": "piet-mondrian",
+      "title_original": "Composition in Brown and Gray",
+      "title_zh": null,
+      "date_display": "1913",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "242.1950",
+      "medium": "Oil on canvas",
+      "dimensions_display": "33 3/4 x 29 3/4\" (85.7 x 75.6 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79253",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "cubist-transition"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE1MTE1NSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=4c257c0dceb23f0f",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79253",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_78441",
+      "artist_id": "piet-mondrian",
+      "title_original": "Composition in Oval with Color Planes 1",
+      "title_zh": null,
+      "date_display": "1914",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "14.1950",
+      "medium": "Oil on canvas",
+      "dimensions_display": "42 3/8 x 31\" (107.6 x 78.8 cm)",
+      "collection_url": "https://www.moma.org/collection/works/78441",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "cubist-transition"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE1MTAzOCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=00b0c8a788c46a22",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/78441",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_80146",
+      "artist_id": "piet-mondrian",
+      "title_original": "Tableau no. 2 / Composition no. V",
+      "title_zh": null,
+      "date_display": "1914",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "633.1967",
+      "medium": "Oil on canvas",
+      "dimensions_display": "21 5/8 x 33 5/8\" (54.8 x 85.3 cm)",
+      "collection_url": "https://www.moma.org/collection/works/80146",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "cubist-transition"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjM4NjUzOCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=09533082ee987a07",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/80146",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "moma_80160",
+      "artist_id": "piet-mondrian",
+      "title_original": "Composition in Red, Blue, and Yellow",
+      "title_zh": null,
+      "date_display": "1937–42",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "638.1967",
+      "medium": "Oil on canvas",
+      "dimensions_display": "23 3/4 x 21 7/8\" (60.3 x 55.4 cm)",
+      "collection_url": "https://www.moma.org/collection/works/80160",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "new-york-rhythm"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjI2NTg4MyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=c132f981ce333290",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/80160",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_79879",
+      "artist_id": "piet-mondrian",
+      "title_original": "Trafalgar Square",
+      "title_zh": null,
+      "date_display": "1939–43",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "510.1964",
+      "medium": "Oil on canvas",
+      "dimensions_display": "57 1/4 x 47 1/4\" (145.2 x 120 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79879",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "new-york-rhythm"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE2MTM2NCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=53c96a832aabed42",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79879",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_78682",
+      "artist_id": "piet-mondrian",
+      "title_original": "Broadway Boogie Woogie",
+      "title_zh": null,
+      "date_display": "1942–43",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "73.1943",
+      "medium": "Oil on canvas",
+      "dimensions_display": "50 x 50\" (127 x 127 cm)",
+      "collection_url": "https://www.moma.org/collection/works/78682",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "new-york-rhythm"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjYyMTQwMiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=a1296a6f3718792e",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/78682",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "moma_79269",
+      "artist_id": "kazimir-malevich",
+      "title_original": "Suprematist Composition: Airplane Flying",
+      "title_zh": null,
+      "date_display": "1915 (dated on reverse 1914)",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "248.1935",
+      "medium": "Oil on canvas",
+      "dimensions_display": "22 7/8 x 19\" (58.1 x 48.3 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79269",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "suprematist-color"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE1MTE2MyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=bdb2b2471a694bf7",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79269",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:29.608166+00:00",
+          "status": "cached",
+          "pixels": [
+            850,
+            1024
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_80383",
+      "artist_id": "kazimir-malevich",
+      "title_original": "Painterly Realism of a Boy with a Knapsack - Color Masses in the Fourth Dimension",
+      "title_zh": null,
+      "date_display": "1915",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "816.1935",
+      "medium": "Oil on canvas",
+      "dimensions_display": "28 x 17 1/2\" (71.1 x 44.5 cm)",
+      "collection_url": "https://www.moma.org/collection/works/80383",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "suprematist-color"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjI0MjQ5NiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=b53b299292efe4a3",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/80383",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:29.621968+00:00",
+          "status": "cached",
+          "pixels": [
+            636,
+            1024
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_80387",
+      "artist_id": "kazimir-malevich",
+      "title_original": "Suprematist Painting",
+      "title_zh": null,
+      "date_display": "1916-17",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "819.1935",
+      "medium": "Oil on canvas",
+      "dimensions_display": "38 1/2 x 26 1/8\" (97.8 x 66.4 cm)",
+      "collection_url": "https://www.moma.org/collection/works/80387",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "suprematist-color"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE1MTUwMSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=6e31940469bfe1b5",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/80387",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:29.631701+00:00",
+          "status": "cached",
+          "pixels": [
+            688,
+            1024
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "moma_80381",
+      "artist_id": "kazimir-malevich",
+      "title_original": "Woman with Pails: Dynamic Arrangement",
+      "title_zh": null,
+      "date_display": "1912-13 (dated on reverse 1912)",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "815.1935",
+      "medium": "Oil on canvas",
+      "dimensions_display": "31 5/8 x 31 5/8\" (80.3 x 80.3 cm)",
+      "collection_url": "https://www.moma.org/collection/works/80381",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "cubo-futurist"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE1MTQ5NyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=b5523724bfc0bf18",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/80381",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_80504",
+      "artist_id": "kazimir-malevich",
+      "title_original": "Samovar",
+      "title_zh": null,
+      "date_display": "1913",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "1041.1983",
+      "medium": "Oil on canvas",
+      "dimensions_display": "35 x 24 1/2\" (88.5 x 62.2 cm)",
+      "collection_url": "https://www.moma.org/collection/works/80504",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "cubo-futurist"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjIzMjcxMiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=d30e20746a3ecaba",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/80504",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_80380",
+      "artist_id": "kazimir-malevich",
+      "title_original": "Reservist of the First Division",
+      "title_zh": null,
+      "date_display": "fall-winter 1914",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "814.1935",
+      "medium": "Oil on canvas with collage of printed paper, postage stamp, and thermometer",
+      "dimensions_display": "21 1/8 x 17 5/8\" (53.7 x 44.8 cm)",
+      "collection_url": "https://www.moma.org/collection/works/80380",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "cubo-futurist"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE4NTU3MyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=a62fb2200346b24d",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/80380",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "moma_80385",
+      "artist_id": "kazimir-malevich",
+      "title_original": "Suprematist Composition: White on White",
+      "title_zh": null,
+      "date_display": "1918",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "817.1935",
+      "medium": "Oil on canvas",
+      "dimensions_display": "31 1/4 x 31 1/4\" (79.4 x 79.4 cm)",
+      "collection_url": "https://www.moma.org/collection/works/80385",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "white-on-white"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE3NDg0MCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=bb652d024b3f1dfd",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/80385",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_80094",
+      "artist_id": "paul-klee",
+      "title_original": "Actor's Mask",
+      "title_zh": null,
+      "date_display": "1924",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "616.1967",
+      "medium": "Oil on canvas mounted on board",
+      "dimensions_display": "14 1/2 x 13 3/8\" (36.7 x 33.8 cm)",
+      "collection_url": "https://www.moma.org/collection/works/80094",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "mask-1924-1928"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjQ0MzY3NSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=10ebeca190f957e2",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/80094",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:29.642644+00:00",
+          "status": "cached",
+          "pixels": [
+            941,
+            1024
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_35209",
+      "artist_id": "paul-klee",
+      "title_original": "Portrait of an Equilibrist",
+      "title_zh": null,
+      "date_display": "1927",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "195.1966",
+      "medium": "Oil and collage on cardboard over wood with painted plaster border",
+      "dimensions_display": "24 7/8 x 15 3/4\" (63.2 x 40 cm)",
+      "collection_url": "https://www.moma.org/collection/works/35209",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "mask-1924-1928"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE3OTI4NSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=3fb4d8c53ba82b6d",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/35209",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:29.659467+00:00",
+          "status": "cached",
+          "pixels": [
+            651,
+            1024
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_79456",
+      "artist_id": "paul-klee",
+      "title_original": "Cat and Bird",
+      "title_zh": null,
+      "date_display": "1928",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "300.1975",
+      "medium": "Oil and ink on gessoed canvas, mounted on wood",
+      "dimensions_display": "15 x 21\" (38.1 x 53.2 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79456",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "mask-1924-1928"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjIxMTAxNCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=5aa2232ef2f54d54",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79456",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:29.670108+00:00",
+          "status": "cached",
+          "pixels": [
+            1024,
+            735
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "moma_34854",
+      "artist_id": "paul-klee",
+      "title_original": "Fire in the Evening",
+      "title_zh": null,
+      "date_display": "1929",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "153.1970",
+      "medium": "Oil on cardboard",
+      "dimensions_display": "13 3/8 x 13 1/4\" (33.8 x 33.3 cm)",
+      "collection_url": "https://www.moma.org/collection/works/34854",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "color-architecture"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE3Njc2NyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=77b1ea76b2522ccf",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/34854",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_78806",
+      "artist_id": "paul-klee",
+      "title_original": "Castle Garden",
+      "title_zh": null,
+      "date_display": "1931",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "106.1982",
+      "medium": "Oil on canvas",
+      "dimensions_display": "26 1/2 x 21 5/8\" (67.2 x 54.9 cm)",
+      "collection_url": "https://www.moma.org/collection/works/78806",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "color-architecture"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE1MDk2MCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=dc9584206ad47e97",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/78806",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_78745",
+      "artist_id": "paul-klee",
+      "title_original": "Equals Infinity",
+      "title_zh": null,
+      "date_display": "1932",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "90.1950",
+      "medium": "Oil on canvas mounted on wood",
+      "dimensions_display": "20 1/4 x 26 7/8\" (51.4 x 68.3 cm)",
+      "collection_url": "https://www.moma.org/collection/works/78745",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "color-architecture"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjUxNzg4MSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=dac6ce9d93695e88",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/78745",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "moma_79342",
+      "artist_id": "paul-klee",
+      "title_original": "Around the Fish",
+      "title_zh": null,
+      "date_display": "1926",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "271.1939",
+      "medium": "Oil and tempera on canvas mounted on cardboard",
+      "dimensions_display": "18 3/8 x 25 1/8\" (46.7 x 63.8 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79342",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "symbolic-narrative"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE1MTE4MSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=fbccae312da56cf2",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79342",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_80157",
+      "artist_id": "paul-klee",
+      "title_original": "\"Or The Mocked Mocker\"",
+      "title_zh": null,
+      "date_display": "1930",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "637.1939",
+      "medium": "Oil on canvas",
+      "dimensions_display": "17 x 20 5/8\" (43.2 x 52.4 cm)",
+      "collection_url": "https://www.moma.org/collection/works/80157",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "symbolic-narrative"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjIxMTczOCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=402c6d1f09155983",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/80157",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_80410",
+      "artist_id": "paul-klee",
+      "title_original": "Mask of Fear",
+      "title_zh": null,
+      "date_display": "1932",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "854.1978",
+      "medium": "Oil on burlap",
+      "dimensions_display": "39 5/8 x 22 1/2\" (100.4 x 57.1 cm)",
+      "collection_url": "https://www.moma.org/collection/works/80410",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "symbolic-narrative"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjUyMDQ5NiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=e58180149e10499e",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/80410",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "moma_78756",
+      "artist_id": "joan-miro",
+      "title_original": "The Hunter (Catalan Landscape)",
+      "title_zh": null,
+      "date_display": "Montroig, July 1923-winter 1924",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "95.1936",
+      "medium": "Oil on canvas",
+      "dimensions_display": "25 1/2 x 39 1/2\" (64.8 x 100.3 cm)",
+      "collection_url": "https://www.moma.org/collection/works/78756",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "dream-1923-1926"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjEyNDkzMyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=b19dc20185921566",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/78756",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:29.684150+00:00",
+          "status": "cached",
+          "pixels": [
+            1024,
+            671
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_79321",
+      "artist_id": "joan-miro",
+      "title_original": "The Birth of the World",
+      "title_zh": null,
+      "date_display": "Montroig, late summer-fall 1925",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "262.1972",
+      "medium": "Oil on canvas",
+      "dimensions_display": "8' 2 3/4\" x 6' 6 3/4\" (250.8 x 200 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79321",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "dream-1923-1926"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjQzODQ1MSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=2e476e3e30177ccc",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79321",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:29.698682+00:00",
+          "status": "cached",
+          "pixels": [
+            812,
+            1024
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_79341",
+      "artist_id": "joan-miro",
+      "title_original": "Person Throwing a Stone at a Bird",
+      "title_zh": null,
+      "date_display": "Montroig, mid-August-December 1926",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "271.1937",
+      "medium": "Oil on canvas",
+      "dimensions_display": "29 x 36 1/4\" (73.7 x 92.1 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79341",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "dream-1923-1926"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjQwMTY1NSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=33c9070d01986b43",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79341",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:29.714185+00:00",
+          "status": "cached",
+          "pixels": [
+            1024,
+            811
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "moma_79202",
+      "artist_id": "joan-miro",
+      "title_original": "Painting",
+      "title_zh": null,
+      "date_display": "Barcelona, June 13, 1933",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "229.1937",
+      "medium": "Oil on canvas",
+      "dimensions_display": "68 1/2 x 6' 5 1/4\" (174 x 196.2 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79202",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "collage-derived-forms"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE1NzQ2MyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=b3de26a0370b217b",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79202",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_80315",
+      "artist_id": "joan-miro",
+      "title_original": "\"Hirondelle Amour\"",
+      "title_zh": null,
+      "date_display": "Barcelona, late fall 1933-winter 1934",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "723.1976",
+      "medium": "Oil on canvas",
+      "dimensions_display": "6' 6 1/2\" x 8' 1 1/2\" (199.3 x 247.6 cm)",
+      "collection_url": "https://www.moma.org/collection/works/80315",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "collage-derived-forms"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE1MTQ3NCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=7401b02e9d571025",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/80315",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_33621",
+      "artist_id": "joan-miro",
+      "title_original": "Rope and People, I",
+      "title_zh": null,
+      "date_display": "Barcelona, March 27, 1935",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "71.1936",
+      "medium": "Oil on cardboard mounted on wood, with coil of rope",
+      "dimensions_display": "41 1/4 x 29 3/8\" (104.8 x 74.6 cm)",
+      "collection_url": "https://www.moma.org/collection/works/33621",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "collage-derived-forms"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE2MDU0NiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=ea1e5604fed56470",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/33621",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "moma_80040",
+      "artist_id": "joan-miro",
+      "title_original": "Mural Painting",
+      "title_zh": null,
+      "date_display": "Barcelona, October 18, 1950-January 26, 1951",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "592.1963",
+      "medium": "Oil on canvas",
+      "dimensions_display": "75 5/8 × 235 × 2 5/8\" (192.1 × 596.9 × 6.7 cm)",
+      "collection_url": "https://www.moma.org/collection/works/80040",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "late-signs"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjIzNjk1MyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=4b8ce6990b69e195",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/80040",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_78633",
+      "artist_id": "joan-miro",
+      "title_original": "The Song of the Vowels",
+      "title_zh": null,
+      "date_display": "Palma de Mallorca, April 24, 1966",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "57.1970",
+      "medium": "Oil on canvas",
+      "dimensions_display": "12' 1/8\" x 45 1/4\" (366 x 114.8 cm)",
+      "collection_url": "https://www.moma.org/collection/works/78633",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "late-signs"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE1MTM4OCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=3eb169afb0c3c306",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/78633",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_78862",
+      "artist_id": "joan-miro",
+      "title_original": "Woman with Three Hairs Surrounded by Birds in the Night",
+      "title_zh": null,
+      "date_display": "Palma, September 2, 1972",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "116.1973",
+      "medium": "Oil on canvas",
+      "dimensions_display": "7' 11 7/8\" x 66 1/2\" (243.5 x 168.9 cm)",
+      "collection_url": "https://www.moma.org/collection/works/78862",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "late-signs"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE1MDk4NCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=cbdf5f2d450a591c",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/78862",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "moma_79091",
+      "artist_id": "sonia-delaunay",
+      "title_original": "Portuguese Market",
+      "title_zh": null,
+      "date_display": "1915",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "191.1955",
+      "medium": "Oil and wax on canvas",
+      "dimensions_display": "35 5/8 x 35 5/8\" (90.5 x 90.5 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79091",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "simultaneous-1913-1915"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjQwMzY2OCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=79b478e78e9d2aa8",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79091",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:29.726337+00:00",
+          "status": "cached",
+          "pixels": [
+            1024,
+            1016
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "moma_78594",
+      "artist_id": "mark-rothko",
+      "title_original": "No. 10",
+      "title_zh": null,
+      "date_display": "1950",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "38.1952",
+      "medium": "Oil on canvas",
+      "dimensions_display": "7' 6 3/8\" x 57 1/8\" (229.6 x 145.1 cm)",
+      "collection_url": "https://www.moma.org/collection/works/78594",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "mature-fields"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE3OTMzMiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=9cc4b30989d481b2",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/78594",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:29.745893+00:00",
+          "status": "downloaded",
+          "pixels": [
+            655,
+            1024
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_78485",
+      "artist_id": "mark-rothko",
+      "title_original": "No. 16 (Red, Brown, and Black)",
+      "title_zh": null,
+      "date_display": "1958",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "21.1959",
+      "medium": "Oil on canvas",
+      "dimensions_display": "8' 10 5/8\" x 9' 9 1/4\" (270.8 x 297.8 cm)",
+      "collection_url": "https://www.moma.org/collection/works/78485",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "mature-fields"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE1MTExMiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=2c6cc055f7bc8fa7",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/78485",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:31.144017+00:00",
+          "status": "downloaded",
+          "pixels": [
+            1024,
+            928
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_79596",
+      "artist_id": "mark-rothko",
+      "title_original": "No. 37/No. 19 (Slate Blue and Brown on Plum)",
+      "title_zh": null,
+      "date_display": "1958",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "389.1961",
+      "medium": "Oil on canvas",
+      "dimensions_display": "7' 11 1/4\" x 7' 6 1/4\" (241.9 x 229 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79596",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "mature-fields"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE1MTMwNSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=e2cc5139716e4927",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79596",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:32.883416+00:00",
+          "status": "downloaded",
+          "pixels": [
+            968,
+            1024
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "moma_80566",
+      "artist_id": "mark-rothko",
+      "title_original": "No. 5/No.  22",
+      "title_zh": null,
+      "date_display": "1950 (dated on reverse 1949)",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "1108.1969",
+      "medium": "Oil on canvas",
+      "dimensions_display": "9' 9\" x 8' 11 1/8\" (297 x 272 cm)",
+      "collection_url": "https://www.moma.org/collection/works/80566",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "mature-fields"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjIwMzM2OSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=b18c39b444e7ec52",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/80566",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:34.592541+00:00",
+          "status": "downloaded",
+          "pixels": [
+            934,
+            1024
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较同方向内部的结构变化"
+      ]
+    },
+    {
+      "id": "moma_79691",
+      "artist_id": "mark-rothko",
+      "title_original": "Slow Swirl at the Edge of the Sea",
+      "title_zh": null,
+      "date_display": "1944",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "429.1981",
+      "medium": "Oil on canvas",
+      "dimensions_display": "6' 3 3/8\" x 7' 3/4\" (191.4 x 215.2 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79691",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "multiform-transition"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE1OTIxOCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=32b56c8242162538",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79691",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_80564",
+      "artist_id": "mark-rothko",
+      "title_original": "No. 5/No. 24",
+      "title_zh": null,
+      "date_display": "1948",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "1106.1969",
+      "medium": "Oil on canvas",
+      "dimensions_display": "34 x 50 1/4\" (86.1 x 127.6 cm)",
+      "collection_url": "https://www.moma.org/collection/works/80564",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "multiform-transition"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE1MDk3MiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=aaee8f08aac7c35b",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/80564",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_80565",
+      "artist_id": "mark-rothko",
+      "title_original": "No. 1 (Untitled)",
+      "title_zh": null,
+      "date_display": "1948",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "1107.1969",
+      "medium": "Oil on canvas",
+      "dimensions_display": "8' 10 3/8\" x 9' 9 1/4\" (270.2 x 297.8 cm)",
+      "collection_url": "https://www.moma.org/collection/works/80565",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "multiform-transition"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE1MDk3MyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=269f35dfa7dbcd95",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/80565",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "moma_80177",
+      "artist_id": "mark-rothko",
+      "title_original": "No. 14 (Horizontals, White over Darks)",
+      "title_zh": null,
+      "date_display": "1961",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "647.1967",
+      "medium": "Oil on canvas",
+      "dimensions_display": "56 1/2\" x 7' 9 3/8\" (143.3 x 237 cm)",
+      "collection_url": "https://www.moma.org/collection/works/80177",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "late-dark"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjIwMjkzMiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=245c77f41d9c4832",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/80177",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_79611",
+      "artist_id": "mark-rothko",
+      "title_original": "Untitled",
+      "title_zh": null,
+      "date_display": "1969-70",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "394.1986",
+      "medium": "Acrylic on canvas",
+      "dimensions_display": "6' 6\" x 66 1/4\" (198.1 x 168.2 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79611",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "late-dark"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjIxMjU0NiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=e24a141dfdc32204",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79611",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_79070",
+      "artist_id": "jackson-pollock",
+      "title_original": "Full Fathom Five",
+      "title_zh": null,
+      "date_display": "1947",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "186.1952",
+      "medium": "Oil on canvas with nails, tacks, buttons, key, coins, cigarettes, matches, etc.",
+      "dimensions_display": "50 7/8 x 30 1/8\" (129.2 x 76.5 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79070",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "poured-1947-1950"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjQ2ODMxNSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=0aeeb560b4312eb4",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79070",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:36.462414+00:00",
+          "status": "downloaded",
+          "pixels": [
+            600,
+            1024
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_78699",
+      "artist_id": "jackson-pollock",
+      "title_original": "Number 1A, 1948",
+      "title_zh": null,
+      "date_display": "1948",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "77.1950",
+      "medium": "Oil and enamel paint on canvas",
+      "dimensions_display": "68\" x 8' 8\" (172.7 x 264.2 cm)",
+      "collection_url": "https://www.moma.org/collection/works/78699",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "poured-1947-1950"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjQ3NzIxMyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=5014d1076198cf17",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/78699",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:38.450444+00:00",
+          "status": "downloaded",
+          "pixels": [
+            1024,
+            669
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_78386",
+      "artist_id": "jackson-pollock",
+      "title_original": "One: Number 31, 1950",
+      "title_zh": null,
+      "date_display": "1950",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "7.1968",
+      "medium": "Oil and enamel paint on canvas",
+      "dimensions_display": "8' 10\" x 17' 5 5/8\" (269.5 x 530.8 cm)",
+      "collection_url": "https://www.moma.org/collection/works/78386",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "poured-1947-1950"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjYxOTkyNSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=8f6afe50e674f9e0",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/78386",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:40.523898+00:00",
+          "status": "downloaded",
+          "pixels": [
+            1024,
+            518
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "moma_80310",
+      "artist_id": "jackson-pollock",
+      "title_original": "Number 7, 1950",
+      "title_zh": null,
+      "date_display": "1950",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "719.1993",
+      "medium": "Oil, enamel, and aluminum paint on canvas",
+      "dimensions_display": "23 1/16\" x 8' 9 3/4\" (58.5 x 268.6 cm)",
+      "collection_url": "https://www.moma.org/collection/works/80310",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "poured-1947-1950"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjIxNjAwNSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=72d6b1d8fe166a86",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/80310",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:42.573960+00:00",
+          "status": "downloaded",
+          "pixels": [
+            1024,
+            234
+          ],
+          "quality_note": "Small image: seek a larger source for local brush/edge inspection."
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较同方向内部的结构变化"
+      ]
+    },
+    {
+      "id": "moma_79686",
+      "artist_id": "jackson-pollock",
+      "title_original": "Stenographic Figure",
+      "title_zh": null,
+      "date_display": "c. 1942",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "428.1980",
+      "medium": "Oil on linen",
+      "dimensions_display": "40 x 56\" (101.6 x 142.2 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79686",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "mythic-figures"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjYyMjM3NCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=be8d7b442234d61f",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79686",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_78719",
+      "artist_id": "jackson-pollock",
+      "title_original": "The She-Wolf",
+      "title_zh": null,
+      "date_display": "1943",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "82.1944",
+      "medium": "Oil, gouache, and plaster on canvas",
+      "dimensions_display": "41 7/8 x 67\" (106.4 x 170.2 cm)",
+      "collection_url": "https://www.moma.org/collection/works/78719",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "mythic-figures"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjIwMzA5OCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=f48e80764b10412a",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/78719",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_79942",
+      "artist_id": "jackson-pollock",
+      "title_original": "Gothic",
+      "title_zh": null,
+      "date_display": "1944",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "533.1984",
+      "medium": "Oil on canvas",
+      "dimensions_display": "7' 5/8\" x 56\" (215.5 x 142.1 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79942",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "mythic-figures"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjYyMjM3NiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=c3ef9ff7a15305c3",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79942",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "moma_79251",
+      "artist_id": "jackson-pollock",
+      "title_original": "Echo: Number 25, 1951",
+      "title_zh": null,
+      "date_display": "1951",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "241.1969",
+      "medium": "Enamel paint on canvas",
+      "dimensions_display": "7' 7 7/8\" x 7' 2\" (233.4 x 218.4 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79251",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "black-pour"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE2MjA0NiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=a8b0f4e0f4853728",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79251",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_79678",
+      "artist_id": "jackson-pollock",
+      "title_original": "Easter and the Totem",
+      "title_zh": null,
+      "date_display": "1953",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "425.1980",
+      "medium": "Oil on canvas",
+      "dimensions_display": "6' 10 1/8\" x 58\" (208.6 x 147.3 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79678",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "late-color"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjYwOTU3NyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=f54e8ea107f87580",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79678",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_79481",
+      "artist_id": "jackson-pollock",
+      "title_original": "White Light",
+      "title_zh": null,
+      "date_display": "1954",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "337.1967",
+      "medium": "Oil, enamel, and aluminum paint on canvas",
+      "dimensions_display": "48 1/4 x 38 1/4\" (122.4 x 96.9 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79481",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "late-color"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjI5ODczNCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=4551268d34dc5e12",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79481",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_79842",
+      "artist_id": "agnes-martin",
+      "title_original": "Friendship",
+      "title_zh": null,
+      "date_display": "1963",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "502.1984",
+      "medium": "Gold leaf and oil on canvas",
+      "dimensions_display": "6' 3\" x 6' 3\" (190.5 x 190.5 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79842",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "early-grid"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjMxODA5OSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=b5c57bdc73b0974c",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79842",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:44.438054+00:00",
+          "status": "downloaded",
+          "pixels": [
+            1024,
+            1023
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_78361",
+      "artist_id": "agnes-martin",
+      "title_original": "The Tree",
+      "title_zh": null,
+      "date_display": "1964",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "5.1965",
+      "medium": "Oil and pencil on canvas",
+      "dimensions_display": "6 x 6' (182.8 x 182.8 cm)",
+      "collection_url": "https://www.moma.org/collection/works/78361",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "early-grid"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjI0ODYzOCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=6a94d1ae44f0fbcf",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/78361",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:46.465233+00:00",
+          "status": "downloaded",
+          "pixels": [
+            1024,
+            1021
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_79891",
+      "artist_id": "agnes-martin",
+      "title_original": "Red Bird",
+      "title_zh": null,
+      "date_display": "1964",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "514.1970",
+      "medium": "Acrylic and colored pencil on canvas",
+      "dimensions_display": "71 1/8 x 71 1/8\" (180.5 x 180.5 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79891",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "early-grid"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE1MTM2MyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=94846b9a1855be61",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79891",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:48.318467+00:00",
+          "status": "downloaded",
+          "pixels": [
+            1022,
+            1024
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "moma_79416",
+      "artist_id": "agnes-martin",
+      "title_original": "Untitled #5",
+      "title_zh": null,
+      "date_display": "1975",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "287.1976",
+      "medium": "Acrylic and pencil on gesso on canvas",
+      "dimensions_display": "71 7/8\" x 6' 1/4\" (182.6 x 183.2 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79416",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "pale-bands"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjQwMDg1MyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=d5ead3e7691d3eb1",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79416",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_79669",
+      "artist_id": "agnes-martin",
+      "title_original": "Untitled #1",
+      "title_zh": null,
+      "date_display": "1981",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "422.1981",
+      "medium": "Gesso, acrylic, and pencil on canvas",
+      "dimensions_display": "6' x 6' (183 x 183 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79669",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "pale-bands"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjMzNDMyOCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=01325286cf529c6f",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79669",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_79540",
+      "artist_id": "agnes-martin",
+      "title_original": "Untitled #6",
+      "title_zh": null,
+      "date_display": "1989",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "363.1990",
+      "medium": "Acrylic and pencil on canvas",
+      "dimensions_display": "71 7/8\" x 6' (182.7 x 182.9 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79540",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "pale-bands"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE1MTI5MiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=e1bf4ddf7c19f23c",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79540",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "moma_79892",
+      "artist_id": "agnes-martin",
+      "title_original": "With My Back to the World",
+      "title_zh": null,
+      "date_display": "1997",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "514.1998.a-f",
+      "medium": "Acrylic on canvas, six panels",
+      "dimensions_display": "Each 60 x 60\" (152.5 x 152.5 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79892",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "late-series"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE2MDAzOSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=528c3905f090cbf7",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79892",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_79081",
+      "artist_id": "helen-frankenthaler",
+      "title_original": "Trojan Gates",
+      "title_zh": null,
+      "date_display": "1955",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "189.1956",
+      "medium": "Oil and enamel on canvas",
+      "dimensions_display": "6' x 48 7/8\" (182.9 x 124.1 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79081",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "soak-stain-1950s"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjIwNTEyMyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=19d70f45a061c82e",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79081",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:50.012645+00:00",
+          "status": "downloaded",
+          "pixels": [
+            693,
+            1024
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_78722",
+      "artist_id": "helen-frankenthaler",
+      "title_original": "Jacob's Ladder",
+      "title_zh": null,
+      "date_display": "1957",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "82.1960",
+      "medium": "Oil on canvas",
+      "dimensions_display": "9' 5 3/8\" x 69 7/8\" (287.9 x 177.5 cm)",
+      "collection_url": "https://www.moma.org/collection/works/78722",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "soak-stain-1950s"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjQ3ODMxOCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=ba89bbdb965ff89c",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/78722",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:51.965224+00:00",
+          "status": "downloaded",
+          "pixels": [
+            632,
+            1024
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "moma_80712",
+      "artist_id": "helen-frankenthaler",
+      "title_original": "Mauve District",
+      "title_zh": null,
+      "date_display": "1966",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "2668.1967",
+      "medium": "Acrylic on canvas",
+      "dimensions_display": "8' 7\" x 7' 11\" (261.5 x 241.2 cm)",
+      "collection_url": "https://www.moma.org/collection/works/80712",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "acrylic-fields"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjI0MTQ2OCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=af2d4f783376a4ae",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/80712",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "moma_435703",
+      "artist_id": "helen-frankenthaler",
+      "title_original": "Toward Dark",
+      "title_zh": null,
+      "date_display": "1988",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "170.2023",
+      "medium": "Acrylic on canvas",
+      "dimensions_display": "9' 10 1/4\"  × 7' 4 1/2\" (300.4 × 224.8 cm)",
+      "collection_url": "https://www.moma.org/collection/works/435703",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "late-layering"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjYwOTU4MCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=4e343b1163c88cab",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/435703",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_78319",
+      "artist_id": "franz-kline",
+      "title_original": "Chief",
+      "title_zh": null,
+      "date_display": "1950",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "2.1952",
+      "medium": "Oil on canvas",
+      "dimensions_display": "58 3/8\" x 6' 1 1/2\" (148.3 x 186.7 cm)",
+      "collection_url": "https://www.moma.org/collection/works/78319",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "black-white-1950s"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjIwMzQyOCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=34bf5d680ab8dd9f",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/78319",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:54.225151+00:00",
+          "status": "downloaded",
+          "pixels": [
+            1024,
+            812
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    },
+    {
+      "id": "moma_79234",
+      "artist_id": "franz-kline",
+      "title_original": "Painting Number 2",
+      "title_zh": null,
+      "date_display": "1954",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "236.1969",
+      "medium": "Oil on canvas",
+      "dimensions_display": "6' 8 1/2\" x 8' 11\" (204.3 x 271.8 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79234",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "black-white-1950s"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjE1MTE0NCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=71b0c26d228516b1",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79234",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:56.083210+00:00",
+          "status": "downloaded",
+          "pixels": [
+            1024,
+            764
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较配色面积、相邻关系及明度"
+      ]
+    },
+    {
+      "id": "moma_79639",
+      "artist_id": "franz-kline",
+      "title_original": "White Forms",
+      "title_zh": null,
+      "date_display": "1955",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "413.1977",
+      "medium": "Oil on canvas",
+      "dimensions_display": "6' 2 3/8\" x 50 1/4\" (188.9 x 127.6 cm)",
+      "collection_url": "https://www.moma.org/collection/works/79639",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "black-white-1950s"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjIwMzQzNiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=97412e684b8669d2",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/79639",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use.",
+        "last_download_check": {
+          "checked_at": "2026-09-06T03:23:58.028692+00:00",
+          "status": "downloaded",
+          "pixels": [
+            698,
+            1024
+          ]
+        }
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较轮廓、边缘和层次"
+      ]
+    },
+    {
+      "id": "moma_80108",
+      "artist_id": "franz-kline",
+      "title_original": "Le Gros",
+      "title_zh": null,
+      "date_display": "1961",
+      "institution": "The Museum of Modern Art, New York",
+      "accession_number": "620.1967",
+      "medium": "Oil on canvas",
+      "dimensions_display": "41 3/8 x 52 5/8\" (105 x 133.8 cm)",
+      "collection_url": "https://www.moma.org/collection/works/80108",
+      "metadata_source": "https://github.com/MuseumofModernArt/collection",
+      "metadata_checked_at": "2026-09-06",
+      "metadata_status": "official_collection_dataset",
+      "direction_ids": [
+        "late-monumental"
+      ],
+      "suggested_roles": [
+        "composition",
+        "form",
+        "color",
+        "surface"
+      ],
+      "image": {
+        "url": "https://www.moma.org/media/W1siZiIsIjIwMzQ0MSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=05bd6049ff54acd1",
+        "provenance": "MoMA official Artworks.csv ImageURL for this ObjectID",
+        "status": "source_address_recorded_not_download_verified",
+        "checked_at": "2026-09-06",
+        "rights_url": "https://www.moma.org/collection/works/80108",
+        "rights_note": "Metadata is CC0; image rights are separate. Consult the artwork record for image use."
+      },
+      "viewing_status": "runtime_full_image_and_detail_viewing_required",
+      "research_questions": [
+        "比较完整构图、主形尺度与空白分布"
+      ]
+    }
+  ]
+}
