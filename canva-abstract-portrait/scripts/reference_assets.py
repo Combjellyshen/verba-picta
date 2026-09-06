@@ -182,7 +182,7 @@ def make_sheet(manifest, path):
 def table(catalog):
     def esc(value): return str(value or '').replace('|', '\\|').replace('\n', ' ')
     lines = ['# 艺术家与参考作品索引', '', f"资料版本：{catalog['version']}；整理日期：{catalog['updated_at']}。", '',
-             '本表由 artist-catalog.json 生成；时期范围是本技能的研究分组，非艺术生涯的排他分期。图像下载和实际观看分别记录。', '',
+             '本表由 artist-catalog.json 生成；收录代表性创作研究方向。图像下载与实际人工审阅分别记录状态。', '',
              '| 艺术家 | 默认方向 | 其他研究方向 |', '|---|---|---|']
     for artist in catalog['artists']:
         default = next(d for d in artist['directions'] if d['id'] == artist['default_direction_id'])

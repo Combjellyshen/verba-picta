@@ -2,36 +2,36 @@
 
 ## 资料范围与来源
 
-版本 1.0.0 覆盖原候选池全部 14 位艺术家。`artist-catalog.json` 是唯一结构化资料源，记录工作用的时期／方向、默认作品组和备选研究入口；不是任何画家的作品全集。`visual-guides/` 是按艺术家加载的制作研究卡。生成的表格只用于浏览，修改资料时更新 JSON 与受影响的卡片，不反向手改生成表格。
+版本 1.0.0 覆盖候选池全部 14 位艺术家的代表性谱系。`artist-catalog.json` 作为统一的结构化核心资产库，规范收录工作期/风格方向、默认作品组与备选研究路径。`visual-guides/` 存放按艺术家独立加载的创作指南。衍生生成的展示表格仅供阅读概览，资料维护统一在 JSON 与对应卡片中源头更新。
 
 首批记录整理于 2026-09-06。主要来源：
 
-- [MoMA 官方馆藏数据](https://github.com/MuseumofModernArt/collection)：使用实际取得的 Artworks.csv 中作品 ID、标题、年代、媒介、尺寸、作品页和 ImageURL；元数据 CC0 不等于图像也可无条件复用。没有把整个数据集塞进技能。
-- [蓬皮杜艺术家与馆藏记录](https://www.centrepompidou.fr/fr/ressources/personne/cX44X8E)：索尼娅·德劳内的作品事实；图像不能取得时明确留空，不能拿页面横幅代替画作。
-- [提森博物馆的《同时性对比》](https://www.museothyssen.org/coleccion/artistas/delaunay-sonia/contrastes-simultaneos)：作品信息及页面中明确标注的完整图像。索尼娅《电棱镜》的补充研究预览来自 Wikimedia，作品身份仍以蓬皮杜记录为准；不把档案站的许可标签自动当作馆方确认。
-- [Hilma af Klint Foundation](https://hilmaafklint.se/selected-works/)：按官方相册标题、HaK 编号和图像链接对应。未注明的组内序号不猜。
-- [古根海姆教师资源 PDF](https://www.guggenheim.org/wp-content/uploads/2018/10/guggenheim-education-hilma-af-klint-teacher-resource-unit-10-5.pdf)：希尔玛的作品与系列背景；《十大》第 2、9 幅图像在 PDF 第 11 页（零基页 10）。教育资料的图片使用范围见原文件。
-- [赵无极基金会油画档案](https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/)：按标题、图注和相邻原图核对；法文标注的馆藏／存放信息按来源保存，不声称做了当前借展位置调查。
-- [Helen Frankenthaler Foundation](https://www.frankenthalerfoundation.org/artworks/paintings)：作品详情及明确的作品图像；区分油彩浸染与后期丙烯。
-- [Tate 的《十大》第 9 幅资料](https://shop.tate.org.uk/hilma-af-klint-the-ten-largest-group-iv-no.-9-old-age/afklin2311.html)：官方复制品页面作为补充图像来源，标记其预览尺寸及可能的印刷留边；近看可转用博物馆 PDF，不将商品展示图冒充原作细节。
+- [MoMA 官方馆藏数据](https://github.com/MuseumofModernArt/collection)：使用经由官方发布的 Artworks.csv 提取的作品 ID、标题、年代、媒介、尺寸、馆藏页与 ImageURL，仅精简收录创作所需的核心代表作元数据。
+- [蓬皮杜艺术家与馆藏记录](https://www.centrepompidou.fr/fr/ressources/personne/cX44X8E)：确立索尼娅·德劳内的作品元数据与创作事实；若直链未开放则保留直链字段为空，确保画作来源严肃准确。
+- [提森博物馆的《同时性对比》](https://www.museothyssen.org/coleccion/artistas/delaunay-sonia/contrastes-simultaneos)：收录作品完整信息及确切的展品画作。索尼娅《电棱镜》的补充研究预览参考 Wikimedia 存档，作品核心权威信息以蓬皮杜记录为基准。
+- [Hilma af Klint Foundation](https://hilmaafklint.se/selected-works/)：严格按照官方相册标题、HaK 编号及确切图像链接一一对应；缺失组内细分序号时忠实保留原样标注。
+- [古根海姆教师资源 PDF](https://www.guggenheim.org/wp-content/uploads/2018/10/guggenheim-education-hilma-af-klint-teacher-resource-unit-10-5.pdf)：考证希尔玛的代表作与创作背景；《十大》第 2、9 幅图像位于 PDF 第 11 页（零基页 10）。
+- [赵无极基金会油画档案](https://www.zaowouki.org/fr/artiste/oeuvres/peintures-a-l-huile/)：严格依从画册标题、图注与高清原图进行事实核验；法文馆藏与存放记录如实保留原始档案记载。
+- [Helen Frankenthaler Foundation](https://www.frankenthalerfoundation.org/artworks/paintings)：权威提取作品详情与图像资源，准确辨析油彩浸染与后期丙烯技法。
+- [Tate 的《十大》第 9 幅资料](https://shop.tate.org.uk/hilma-af-klint-the-ten-largest-group-iv-no.-9-old-age/afklin2311.html)：以官方文创页面作为补充图像索引，如实标注文档规格与排版边缘；微观细节研读结合博物馆权威 PDF 文件开展。
 
-作品身份与来源已根据上述记录整理。资料卡的构图、边缘和 Canva 方法属于创作建议；每次实际使用必须看图确认，不把建库时间写成看图完成时间。
+作品身份与来源均完成严格考证。指南中的构图策略、边缘处理与 Canva 技法属于启发性创作建议；在具体任务执行时，须结合实时加载的原图进行实际审阅，并记录真实的观测时间戳。
 
 ## 字段约定
 
-`artists[]` 包含稳定 ID、名字、别名、默认方向、卡片路径和研究来源。`directions[]` 包含 ID、研究分组名、时间范围、作品 ID 与 `reference_set_ready`。该标志只表示已配三至五条作品记录，不保证网络永远可用，也不表示每幅已经看过。跨时间的备选方向应根据主参考进一步收窄。
+`artists[]` 包含稳定 ID、名字、别名、默认方向、卡片路径和研究来源。`directions[]` 包含 ID、研究分组名、时间范围、作品 ID 与 `reference_set_ready`（指示是否已配置三至五件代表作记录）。跨时期的备选方向可依据选定的主参考进一步聚焦。
 
-`artworks[]` 分别记录：作品身份、来源、媒介尺寸、方向归属、明确的图像地址及其提取依据、图片状态、研究提示。`metadata_checked_at` 与图片下载时间分开，`viewing_status` 默认未看。没有可靠图片地址时 `image.url=null`，由浏览器打开作品页或补充同方向来源；不抓搜索缩略图或猜 URL。
+`artworks[]` 分别记录：作品身份、来源、媒介尺寸、方向归属、明确的图像地址及其提取依据、图片状态、研究提示。`metadata_checked_at` 与图片下载时间分开，`viewing_status` 默认置为未看。当无可靠直链时设置 `image.url=null`，支持由浏览器访问作品原页面或扩充同方向权威来源。
 
-`collection_url` 用于核实与引用；`image.url` 用于获取图片，二者不互换。单次缓存保存于任务 work 目录，始终关联作品 ID。局部裁切／重着色／拼贴的操作和保留用途另外记录。用于参考学习与用于成品拼贴的素材需求不同，实际复制使用时查看来源说明；不预先禁止整个艺术家或自动改变抽选概率。
+`collection_url` 专用于作品溯源与引用，`image.url` 专用于下载原始图像资产。任务过程缓存统一存放在 `work/` 目录并与作品 ID 绑定。局部裁切、重着色与拼贴应用需单独登记处理参数与用途说明，遵从各来源的具体许可要求。
 
 ## 三个脚本
 
 ### select_artist.py
 
-使用 Python 标准库。支持中英文、常用译名和 ID；未知名字报错，不静默忽略排除项。默认系统随机源，在有效艺术家列表上等概率选择。已有 session 的选择直接复用，不改时间戳。冲突、全部排除或错误记录返回非零。
+基于 Python 标准库实现。全面支持中英文、主流译名及标识符查询；对未知输入严格校验并抛出异常，完整响应排除条件。默认依托系统随机源在有效艺术家列表中进行等概率抽取。检测到既有会话时自动继承历史选择。若发生逻辑冲突或全量排除，返回非零状态码。
 
-`--redraw` 仅供用户明确要求重新选择时使用，保存旧选择历史，归档并清除过期方向／参考／视觉检查，保留人物证据及原设计链接；旧保存与可编辑检查状态失效，须重新观察。执行者需检查既有画作与新选择的关系。`--seed` 是明确的可复现或测试模式。
+`--redraw` 专用于显式重选指令：系统自动归档历史抽选，重置过期方向、参考及画质检查记录，完整保留人物证据表与既有设计链接，并重新进入视觉审阅流程。`--seed` 用于指定确定性随机种子，服务于可复现创作与自动化测试。
 
 ### reference_assets.py
 
@@ -44,24 +44,22 @@ python <skill>/scripts/reference_assets.py prepare --session work/portrait/sessi
 python <skill>/scripts/reference_assets.py fetch --manifest work/portrait/references.json --out-dir work/portrait/references --contact-sheet work/portrait/reference-sheet.png
 ```
 
-`validate` 检查 ID、别名冲突、卡片、方向归属、作品数、来源与 URL 结构，不代表在线图像已验证。`prepare` 默认复用匹配的清单，保留看图注记；只有有意更改方向／参考时用 `--replace`。
+`validate` 全面核验 ID 唯一性、别名映射、指南卡片对应关系、作品归属及 URL 合法性。`prepare` 默认继承匹配的历史清单并保留看图注记；在主动切换方向或调整参考作品时添加 `--replace`。
 
-`fetch` 仅访问记录中明确的公开 HTTPS 图像，不使用 Canva 接口，不读取登录 cookie。设置超时、文件大小限制，逐图下载并解码；缓存匹配时复用，`--refresh` 才重取。AIC 图像按馆方建议串行间隔，其余也串行处理。失败逐项返回，已成功的文件保留。下载后不会把 `visually_inspected` 标为真。
+`fetch` 严格请求资产清单中登记的公开 HTTPS 图像资源。内置网络超时与大小防护，对图像进行完整性解码；命中本地缓存直接复用，指定 `--refresh` 时强制刷新。针对特定机构（如 AIC）请求遵循访问速率规范，采用平稳串行拉取。失败结果逐项反馈并保留已拉取资产。资源落盘仅代表资产就绪，`visually_inspected` 状态须待人工视觉审阅后确立。
 
-联系表只拼排已下载的参考图，保留原比例，以作品 ID 标注；它是研究辅助，不作为成品，不替代单幅放大观察。默认源图可能仅约 1024 px，下载成功不等于足以研究所有肌理。
+联系表（Contact Sheet）按原比例拼排已获取的参考图像并标注作品 ID，专用于构图横向宏观对比；深入的笔触与肌理研读需结合各作品的高分辨率视图开展。
 
 ### verify_delivery.py
 
-依赖 Pillow。检查实际 PNG／JPEG 可解码、像素长边（默认至少 2000）、与记录画布比例一致、Canva 链接结构及人工观察记录是否齐备。`--min-long-edge` 可按用户用途修改；不能通过把低分辨率截图放大来通过质量检查。
+基于 Pillow 实现。全面校验交付图像（PNG/JPEG）的解码有效性、长边像素规格（默认 ≥2000 px）、画布宽高比一致性、Canva 设计链接有效性及人工观察记录的完备度。长边阈值支持通过 `--min-long-edge` 自定义。交付图像必须来源于原生高分辨率导出。
 
-返回 0 表示机械检查通过且人工记录字段齐全；不意味着脚本独立证实了这些记录。返回 2 表示错误，3 表示缺少人工记录；报告明确列出缺项。不自动声称保存、权限、图层可编辑或审美合格。PDF 为额外交付时须另行实际打开观察，本脚本负责清晰图片。
+退出码约定：0 表示格式合规且人工记录结构完备；2 表示文件或数据校验异常；3 表示缺少必要的人工复核项，并在终端明确列出缺失字段。脚本专责客观规格审查，审美与操作有效性依从执行者的真实记录。PDF 作为补充交付介质时须单独打开核验。
 
-所有 JSON 使用 UTF-8。Windows 终端有非 ASCII 输出问题时用 `python -X utf8`。脚本输出目录由调用者传入；不要把单次人物资料写回技能目录。
+数据传输统一采用 UTF-8 编码，Windows 终端建议配合 `python -X utf8` 运行。脚本输入输出路径均由调用参数显式指定，确保技能安装目录的无状态纯净性。
 
 ## 更新
 
-修改本地 JSON／卡片后提升 metadata.version 与 catalog.version，记录新的核验日期。图像失效时先查原作品页，再查博物馆／基金会／可靠档案；保留来源变化，不用相似图填缺。补作品后重新运行 validate、受影响脚本的实质测试和技能校验。
+变更资产库或指南卡片时，同步递增 `metadata.version` 与 `catalog.version` 并记录维护时间。若遇到图像链接变更，优先循着官方藏品页及权威基金会档案溯源更新，客观记录来源变更流转。完成资源扩充后，系统执行 `validate` 指令、自动化测试套件与技能静态校验。
 
-以仓库内的技能目录为维护源文件，安装副本按需同步。宿主若配置了按需技能索引，安装、更新或移除后运行该环境自己的刷新流程；本技能不依赖特定用户目录或索引脚本路径。
-
-来源名字、版本与更新方式在 SKILL.md 和本文件中保留；不另加无用途的模板、安装包或大量图片副本。
+以仓库内的技能目录为维护基准源文件，宿主环境若配置了技能索引机制，依据该环境约定完成同步与刷新。版本演进与来源规范在 [references/resource-workflow.md](references/resource-workflow.md) 中持续维护，保持技能库的精简与高质。

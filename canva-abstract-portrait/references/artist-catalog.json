@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "updated_at": "2026-09-06",
   "source_name": "User portrait prompt; curated official museum and artist-foundation resources",
-  "scope_note": "All 14 artists in the original pool. Curated working sets and alternate research directions; not complete catalogues raisonnés.",
-  "period_note": "Direction labels are workflow groupings, not exhaustive or exclusive art-historical periods.",
+  "scope_note": "All 14 artists in the candidate pool. Curated representative working sets and research directions.",
+  "period_note": "Direction labels are workflow groupings for portrait research.",
   "source_policy": "Artwork facts from official MoMA data or opened institution/foundation records. Visual prompts are editorial guidance requiring actual image viewing.",
   "metadata_sources": [
     "https://github.com/MuseumofModernArt/collection",
@@ -38,7 +38,7 @@
             "moma_79452"
           ],
           "reference_set_ready": true,
-          "scope_note": "以同一委托组保持方向一致，选择一幅作为骨架，不把四幅缩成拼盘。"
+          "scope_note": "以同一委托组保持风格连贯，选定一幅代表作确立构图主线，维持画面的有机整体性。"
         },
         {
           "id": "bauhaus-geometry",
@@ -59,7 +59,7 @@
             "moma_80104"
           ],
           "reference_set_ready": false,
-          "scope_note": "保留山丘／人物等形象残迹时使用，不能直接当成晚期几何。"
+          "scope_note": "专注于向抽象过渡时期的动势笔触与残存物象，与后期的包豪斯几何语言明确区分。"
         }
       ],
       "research_sources": [
@@ -99,7 +99,7 @@
             "moma_80162"
           ],
           "reference_set_ready": true,
-          "scope_note": "压低色彩跨度，研究多视角交叠，不能只加三角切片。"
+          "scope_note": "收敛色彩跨度，深入研究多视角空间的交叠咬合与分面结构。"
         },
         {
           "id": "postwar-heads",
@@ -111,7 +111,7 @@
             "moma_79928"
           ],
           "reference_set_ready": true,
-          "scope_note": "按选定作品组织线与色面，避免混用所有时期的符号。"
+          "scope_note": "聚焦于选定作品的线条收束与色面秩序，保持视觉语言的纯正性。"
         }
       ],
       "research_sources": [
@@ -139,7 +139,7 @@
             "moma_79816"
           ],
           "reference_set_ready": true,
-          "scope_note": "方形与菱形构图先选其一；不把菱形外框误当内部斜线系统。"
+          "scope_note": "确立方框或菱形外框构图，内部严格遵循纯正的正交垂直与水平结构。"
         },
         {
           "id": "cubist-transition",
@@ -163,7 +163,7 @@
             "moma_78682"
           ],
           "reference_set_ready": true,
-          "scope_note": "部分作品跨年重画；不能把全部年代一概归成黑线加三原色。"
+          "scope_note": "深入研读纽约时期由纯色线条与色块交织构成的动态节奏。"
         }
       ],
       "research_sources": [
@@ -203,7 +203,7 @@
             "moma_80380"
           ],
           "reference_set_ready": true,
-          "scope_note": "适合保留身体／物体残迹的方案，不混称纯至上主义。"
+          "scope_note": "重点研究身体与物体的分面重构，精准展现立体未来主义的形态张力。"
         },
         {
           "id": "white-on-white",
@@ -242,7 +242,7 @@
             "moma_79456"
           ],
           "reference_set_ready": true,
-          "scope_note": "人形与动物面部用于比较组织方式，不能把猫脸特征照搬为人的性格。"
+          "scope_note": "借鉴人物与具象形象的面部抽象组织法则，进行凝练的象征化转译。"
         },
         {
           "id": "color-architecture",
@@ -266,7 +266,7 @@
             "moma_80410"
           ],
           "reference_set_ready": true,
-          "scope_note": "选择更具叙事性的关系时使用，避免所有符号同时出现。"
+          "scope_note": "聚焦于特定叙事图式的精练重组，保持画面的符号节制感。"
         }
       ],
       "research_sources": [
@@ -306,7 +306,7 @@
             "moma_33621"
           ],
           "reference_set_ready": true,
-          "scope_note": "研究大形变形及材料关系，不复制全部符号。"
+          "scope_note": "深入研读有机体块变形与材质肌理关系，提炼核心形态逻辑。"
         },
         {
           "id": "late-signs",
@@ -366,7 +366,7 @@
             "sonia_rythme"
           ],
           "reference_set_ready": false,
-          "scope_note": "需补同方向参考，勿混淆 Robert 与 Sonia Delaunay 的作品。"
+          "scope_note": "需补同方向参考，精准锁定 Sonia Delaunay 本人的创作谱系。"
         },
         {
           "id": "textile-dialogue",
@@ -374,7 +374,7 @@
           "years": "1910–1930 年代",
           "work_ids": [],
           "reference_set_ready": false,
-          "scope_note": "仅作备选研究入口；必须重新选择绘画参考，不能以图案模板代替画作。"
+          "scope_note": "仅作备选研究入口；使用前须扩充纯绘画代表作参考，基于绘画语汇推进创作。"
         }
       ],
       "research_sources": [
@@ -403,7 +403,7 @@
             "moma_80566"
           ],
           "reference_set_ready": true,
-          "scope_note": "选择一个主参考的色域数量与空间关系，不机械限定三块矩形。"
+          "scope_note": "依据所选主参考提炼色域数量与空间关系，呈现富有呼吸感的色块架构。"
         },
         {
           "id": "multiform-transition",
@@ -454,7 +454,7 @@
             "moma_80310"
           ],
           "reference_set_ready": true,
-          "scope_note": "以跨画面线网与不同层次密度为主，不画一团中心乱线。"
+          "scope_note": "以通幅贯穿的多层线网和丰富疏密梯度为主，确立全局性的动势场域。"
         },
         {
           "id": "mythic-figures",
@@ -466,7 +466,7 @@
             "moma_79942"
           ],
           "reference_set_ready": true,
-          "scope_note": "保留图像痕迹时选择，不能同成熟滴画混成一套动作。"
+          "scope_note": "着重研究神话母题与半具象图腾的线性交织，与全幅滴画建立清晰区分。"
         },
         {
           "id": "black-pour",
@@ -487,7 +487,7 @@
             "moma_79481"
           ],
           "reference_set_ready": false,
-          "scope_note": "需收窄参考，避免把晚期回归形象当成熟滴画。"
+          "scope_note": "聚焦于晚期形象重构与色块组织的特定研究范式。"
         }
       ],
       "research_sources": [
@@ -537,7 +537,7 @@
             "moma_79892"
           ],
           "reference_set_ready": false,
-          "scope_note": "一件由多画组成的组作仍只是一件记录，不能冒充三件独立作品。"
+          "scope_note": "组作视为单一整体作品记录。当前仅收录代表作，切换前须扩充补足三至五幅参考。"
         }
       ],
       "research_sources": [
@@ -566,7 +566,7 @@
             "hilma_old_age_9"
           ],
           "reference_set_ready": true,
-          "scope_note": "保留组作统一语言，生活阶段的作品标题不是目标人物年龄或命运的证据。"
+          "scope_note": "提炼组作中连贯的视觉秩序，借用其图式语言开展纯粹抽象表达。"
         },
         {
           "id": "swan-altarpiece",
@@ -578,7 +578,7 @@
             "hilma_hak187"
           ],
           "reference_set_ready": true,
-          "scope_note": "两组作品有差异，优先补成其中一个系列，不直接混用全部形态。"
+          "scope_note": "两组作品风格各异，制作时建议聚焦于特定单一子系列的纯粹形态。"
         },
         {
           "id": "atom",
@@ -618,7 +618,7 @@
             "zao_1969"
           ],
           "reference_set_ready": true,
-          "scope_note": "根据主参考确定横向聚集或纵向运动，不机械居中画黑色山峰。"
+          "scope_note": "依据选定主参考确立横向激荡或纵向穿插的动势主轴，生动经营空间格局。"
         },
         {
           "id": "signs-1950s",
@@ -642,7 +642,7 @@
             "zao_1985"
           ],
           "reference_set_ready": true,
-          "scope_note": "比较稀疏空间与色层，不把晚期简单等同水墨。"
+          "scope_note": "深入体会空灵辽阔的光感色域与微妙色层流转，展现晚期成熟的色光空间。"
         }
       ],
       "research_sources": [
@@ -671,7 +671,7 @@
             "moma_78722"
           ],
           "reference_set_ready": true,
-          "scope_note": "研究底布参与、色域渗入及稀疏线条，不混作厚涂。"
+          "scope_note": "深入提炼底色参与、色域浸润渗透及灵动线条特征，保持轻盈通透质感。"
         },
         {
           "id": "acrylic-fields",
@@ -683,7 +683,7 @@
             "moma_80712"
           ],
           "reference_set_ready": true,
-          "scope_note": "比较更明确色场与边缘，不照搬早期颜料表现。"
+          "scope_note": "着重分析明确的色场边界与形体结构，呈现丙烯时期的视觉纯度。"
         },
         {
           "id": "late-layering",
@@ -722,7 +722,7 @@
             "moma_79639"
           ],
           "reference_set_ready": true,
-          "scope_note": "白色是被塑造的形体，不能只在白底上画几根黑棒。"
+          "scope_note": "强调白色的主动造型功能，使黑白形体形成互锁张力。"
         },
         {
           "id": "late-monumental",

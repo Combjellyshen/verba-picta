@@ -1,5 +1,5 @@
 interface:
-  display_name: "Canva 抽象人物肖像"
+  display_name: "言之有画"
   short_description: "从语料证据到艺术家研究，通过浏览器实际绘制可编辑的抽象人物肖像"
   default_prompt: "使用 $canva-abstract-portrait 根据我提供的目标人物和语料研究并绘制抽象肖像，全程通过 computer use 操作 Canva 浏览器编辑器。"
 policy:
