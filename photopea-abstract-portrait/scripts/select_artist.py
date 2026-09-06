@@ -94,14 +94,16 @@ def choose(catalog, session, artist=None, excluded=(), seed=None, redraw=False):
     }
     if old:
         session.setdefault('selection_history', []).append(old)
-        invalidated = {key: session[key] for key in ('direction_id', 'reference_manifest', 'visual_interpretation', 'quality_checks', 'export_review') if key in session}
+        invalidated = {key: session[key] for key in ('direction_id', 'reference_manifest', 'visual_interpretation', 'technique_study', 'quality_checks', 'export_review') if key in session}
+        if isinstance(session.get('photopea'), dict):
+            invalidated['photopea'] = dict(session['photopea'])
         if invalidated:
             session.setdefault('revision_history', []).append({'invalidated_at': now(), **invalidated})
-        for key in ('direction_id', 'reference_manifest', 'visual_interpretation', 'quality_checks', 'export_review'):
+        for key in ('direction_id', 'reference_manifest', 'visual_interpretation', 'technique_study', 'quality_checks', 'export_review'):
             session.pop(key, None)
-        if isinstance(session.get('canva'), dict):
-            for key in ('save_observed_at', 'save_observation', 'editable_elements', 'reference_underlay_status'):
-                session['canva'].pop(key, None)
+        if isinstance(session.get('photopea'), dict):
+            for key in ('save_observed_at', 'save_observation', 'reopened_at', 'reopen_observation', 'editable_layers', 'reference_underlay_status', 'ui_state'):
+                session['photopea'].pop(key, None)
     session['selection'] = result
     session.setdefault('schema_version', 1)
     return result, False

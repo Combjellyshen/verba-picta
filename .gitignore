@@ -1,5 +1,7 @@
 /work/
 /outputs/
+/test/
+/.playwright-mcp/
 __pycache__/
 *.py[cod]
 .pytest_cache/

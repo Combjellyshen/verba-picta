@@ -1,0 +1,6 @@
+interface:
+  display_name: "言之有画"
+  short_description: "从语料证据到 Photopea 分层绘画，交付抽象肖像 PSD 与 PNG"
+  default_prompt: "使用 $photopea-abstract-portrait 根据我提供的目标人物和语料研究并绘制抽象肖像。通过 computer use 在 Photopea 中完成局部试样、笔刷与蒙版绘画、三尺度复核，保存并重开分层 PSD 后导出 PNG。"
+policy:
+  allow_implicit_invocation: true

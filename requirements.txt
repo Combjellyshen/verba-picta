@@ -1,1 +1,2 @@
 Pillow
+psd-tools>=1.10,<2

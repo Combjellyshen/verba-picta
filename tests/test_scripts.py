@@ -4,8 +4,10 @@ from types import SimpleNamespace
 from unittest.mock import patch
 import sys
 from PIL import Image
+from psd_tools import PSDImage
+from psd_tools.api.layers import PixelLayer
 
-ROOT=Path(__file__).resolve().parents[1]/'canva-abstract-portrait'
+ROOT=Path(__file__).resolve().parents[1]/'photopea-abstract-portrait'
 sys.path.insert(0,str(ROOT/'scripts'))
 import select_artist as sel
 import reference_assets as refs
@@ -17,6 +19,14 @@ class ScriptTests(unittest.TestCase):
         self.temp=tempfile.TemporaryDirectory(dir=Path(__file__).parent,prefix='portrait-test-')
         self.dir=Path(self.temp.name)
     def tearDown(self): self.temp.cleanup()
+    def project_fixture(self,size=(1600,2000),layer_count=2):
+        project_path=self.dir/'layered-fixture.psd'
+        document=PSDImage.new('RGB',size)
+        PixelLayer.frompil(Image.new('RGB',size,'white'),document,name='Ground')
+        if layer_count>1:
+            PixelLayer.frompil(Image.new('RGBA',(40,40),'red'),document,name='Color Field')
+        document.save(project_path)
+        return project_path
     def test_01_catalog(self):
         self.assertEqual(refs.validate(CAT,ROOT),[])
         self.assertEqual(len(CAT['artists']),14)
@@ -45,12 +55,16 @@ class ScriptTests(unittest.TestCase):
         self.assertEqual(len({a['id'] for a in captured}),14)
         self.assertEqual(result['probability'],'1/14')
     def test_06_redraw_preserves_evidence_invalidates_checks(self):
-        state={'core_observations':[{'id':'E1'}],'quality_checks':[{'scale':'detail'}],'export_review':{'viewed_at':'old'},'canva':{'design_url':'https://www.canva.com/design/TEST/edit','save_observation':'old'}}
+        state={'core_observations':[{'id':'E1'}],'technique_study':{'decision':'old'},'quality_checks':[{'scale':'detail'}],'export_review':{'viewed_at':'old'},'photopea':{'project_path':'previous.psd','save_observation':'old','reopened_at':'old','reopen_observation':'old','editable_layers':['old'],'ui_state':{'tool':'Brush'}}}
         sel.choose(CAT,state,artist='克利'); state['direction_id']='old-direction'
         sel.choose(CAT,state,artist='赵无极',redraw=True)
         self.assertEqual(state['core_observations'],[{'id':'E1'}])
-        self.assertNotIn('quality_checks',state);self.assertNotIn('save_observation',state['canva'])
+        self.assertNotIn('quality_checks',state);self.assertNotIn('save_observation',state['photopea'])
         self.assertNotIn('direction_id',state)
+        self.assertNotIn('technique_study',state)
+        self.assertEqual(state['photopea'],{'project_path':'previous.psd'})
+        self.assertEqual(state['revision_history'][0]['technique_study'],{'decision':'old'})
+        self.assertEqual(state['revision_history'][0]['photopea']['reopened_at'],'old')
         self.assertEqual(state['selection_history'][0]['artist_id'],'paul-klee')
         self.assertTrue(state['revision_history'])
     def prepare_args(self):
@@ -82,21 +96,23 @@ class ScriptTests(unittest.TestCase):
         self.assertFalse(result['all_available']);self.assertEqual(sel.read_json(manifest)['artworks'][0]['fetch_result']['status'],'unavailable')
     def test_11_valid_export_missing_reviews(self):
         p=self.dir/'decoder-fixture.png';Image.new('RGB',(1600,2000),'white').save(p)
-        state={'canvas':{'width':1600,'height':2000},'canva':{'design_url':'https://www.canva.com/design/TEST/edit'}}
+        state={'canvas':{'width':1600,'height':2000},'photopea':{'project_path':str(self.project_fixture())}}
         report=delivery.verify(state,p)
         self.assertTrue(report['mechanical_checks_passed']);self.assertFalse(report['manual_records_present'])
+        self.assertEqual(report['project']['layer_count'],2)
         self.assertTrue(any('detail' in v for v in report['missing_manual_records']))
     def test_12_corrupt_and_wrong_ratio(self):
         p=self.dir/'invalid.png';p.write_bytes(b'not PNG')
         with self.assertRaises(OSError):delivery.verify({},p)
         p=self.dir/'ratio-fixture.png';Image.new('RGB',(2000,1000),'white').save(p)
-        r=delivery.verify({'canvas':{'width':1600,'height':2000},'canva':{'design_url':'https://www.canva.com/design/TEST/edit'}},p)
+        r=delivery.verify({'canvas':{'width':1600,'height':2000},'photopea':{}},p)
         self.assertTrue(any('aspect ratio' in e for e in r['errors']))
     def test_13_complete_records_are_only_reports(self):
         p=self.dir/'decoder-fixture.png';Image.new('RGB',(1600,2000),'white').save(p)
-        state={'canvas':{'width':1600,'height':2000},'canva':{'design_url':'https://www.canva.com/design/TEST/edit','save_observed_at':'test','save_observation':'test fixture, not a real Canva save','editable_elements':['test'],'reference_underlay_status':'not_used'},'quality_checks':[{'scale':s,'checked_at':'test','observation':'fixture'} for s in ('thumbnail','normal','detail')],'export_review':{'viewed_at':'test','observation':'fixture'}}
+        state={'canvas':{'width':1600,'height':2000},'photopea':{'project_path':str(self.project_fixture()),'save_observed_at':'test','save_observation':'synthetic fixture','reopened_at':'test','reopen_observation':'synthetic fixture','editable_layers':['fixture'],'reference_underlay_status':'not_used'},'technique_study':{'targets':['fixture'],'trials':[{'observation':'fixture'}],'decision':'fixture'},'quality_checks':[{'scale':s,'checked_at':'test','observation':'fixture'} for s in ('thumbnail','normal','detail')],'export_review':{'viewed_at':'test','observation':'fixture'}}
         r=delivery.verify(state,p)
-        self.assertTrue(r['manual_records_present']);self.assertIn('Does not verify Canva save',r['scope'])
+        self.assertTrue(r['mechanical_checks_passed']);self.assertTrue(r['manual_records_present'])
+        self.assertIn('Does not verify Photopea UI actions',r['scope'])
     def test_14_atomic_write_retries_transient_lock(self):
         target=self.dir/'state.json';real=sel.os.replace; calls=[]
         def transient(src,dst):
@@ -106,5 +122,24 @@ class ScriptTests(unittest.TestCase):
         with patch.object(sel.os,'replace',side_effect=transient),patch.object(sel.time,'sleep'):
             sel.write_json(target,{'preserved':True})
         self.assertEqual(sel.read_json(target),{'preserved':True});self.assertEqual(len(calls),2)
+
+    def test_15_photopea_requires_local_project(self):
+        image_path=self.dir/'export.png';Image.new('RGB',(1600,2000),'white').save(image_path)
+        report=delivery.verify({'canvas':{'width':1600,'height':2000},'photopea':{}},image_path)
+        self.assertTrue(any('PSD' in error for error in report['errors']))
+        self.assertIn('project',report)
+
+    def test_16_rejects_corrupt_or_flat_project(self):
+        image_path=self.dir/'export.png';Image.new('RGB',(1600,2000),'white').save(image_path)
+        project_path=self.dir/'invalid.psd';project_path.write_bytes(b'not a PSD')
+        report=delivery.verify({},image_path,project_path=project_path)
+        self.assertTrue(any('PSD decoding failed' in error for error in report['errors']))
+        report=delivery.verify({},image_path,project_path=self.project_fixture(layer_count=1))
+        self.assertTrue(any('independent content layers' in error for error in report['errors']))
+
+    def test_17_rejects_project_size_mismatch(self):
+        image_path=self.dir/'export.png';Image.new('RGB',(1600,2000),'white').save(image_path)
+        report=delivery.verify({},image_path,project_path=self.project_fixture(size=(800,1000)))
+        self.assertTrue(any('PSD dimensions differ' in error for error in report['errors']))
 
 if __name__=='__main__':unittest.main(verbosity=2)
